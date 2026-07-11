@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0b0c;
+  --surface: #151517;
+  --surface-elevated: #202024;
+  --text: #ffffff;
+  --text-muted: #b7b7bd;
+  --brand: #d71920;
+  --brand-hover: #b91419;
+  --border: rgba(255, 255, 255, 0.12);
+  --success: #2fb86e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-foreground: var(--text);
+  --color-muted: var(--text-muted);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-oswald);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand) 40%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.seam-texture {
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(215, 25, 32, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.05), transparent 35%),
+    linear-gradient(180deg, rgba(11, 11, 12, 0.2), rgba(11, 11, 12, 0.85));
+}
+
+.turf-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Space for sticky mobile action bar */
+@media (max-width: 767px) {
+  .has-mobile-action-bar {
+    padding-bottom: 5.5rem;
+  }
+}

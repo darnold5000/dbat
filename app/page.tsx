@@ -1,0 +1,311 @@
+import Image from "next/image";
+import Link from "next/link";
+import { site } from "@/content/site";
+import { bookingLinks } from "@/config/booking-links";
+import { getFeaturedInstructors } from "@/content/instructors";
+import { camps } from "@/content/camps";
+import { BookingLink } from "@/components/booking/BookingLink";
+import { analyticsEvents } from "@/lib/analytics";
+import { InstructorCard } from "@/components/instructors/InstructorCard";
+import { MembershipComparison } from "@/components/memberships/MembershipCard";
+import { CampCard } from "@/components/camps/CampCard";
+import { FacilityInfoCard } from "@/components/facility/FacilityCards";
+import { ConversionSection } from "@/components/sections/ConversionSection";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import { MapPin, Thermometer, Users, DoorOpen } from "lucide-react";
+import { FadeIn } from "@/components/ui/FadeIn";
+
+const quickActions = [
+  {
+    title: "Private Lessons",
+    description: "Baseball and softball instruction with parents involved in the process.",
+    href: "/lessons",
+    cta: "Explore Lessons",
+    image: "/images/instructors/robb-dure.jpg",
+  },
+  {
+    title: "Batting Cages",
+    description: "Real baseballs and softballs in machine lanes, plus reservable cage rentals.",
+    href: "/batting-cages",
+    cta: "View Cages",
+    image: "/images/facility/avon-facility-3.jpg",
+  },
+  {
+    title: "Camps & Clinics",
+    description: "Seasonal camps and clinics with online registration through D-BAT Hub.",
+    href: "/camps",
+    cta: "See Camps",
+    image: "/images/programs/camp-flyer-1.png",
+  },
+  {
+    title: "Memberships",
+    description: "Daily machine tokens and discounts on lessons, camps, and pro shop gear.",
+    href: "/memberships",
+    cta: "Compare Plans",
+    image: "/images/facility/avon-facility-2.jpg",
+  },
+];
+
+export default function HomePage() {
+  const featured = getFeaturedInstructors(4);
+  const featuredCamps = camps.slice(0, 3);
+
+  return (
+    <>
+      <section className="relative min-h-[85vh] overflow-hidden border-b border-border">
+        <Image
+          src={site.hero.image}
+          alt={site.hero.imageAlt}
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent" />
+        <div className="absolute inset-0 seam-texture" />
+        <div className="relative mx-auto flex min-h-[85vh] max-w-6xl flex-col justify-center px-4 py-24 sm:px-6">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-brand">
+            {site.hero.eyebrow}
+          </p>
+          <h1 className="max-w-3xl font-display text-5xl leading-[0.95] text-white md:text-7xl">
+            {site.hero.headline}
+          </h1>
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-muted md:text-lg">
+            {site.hero.supporting}
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <BookingLink
+              href={bookingLinks.lessons}
+              size="lg"
+              eventName={analyticsEvents.bookLesson}
+              confirmOutbound
+            >
+              Book a Lesson
+            </BookingLink>
+            <BookingLink
+              href={bookingLinks.cages}
+              variant="secondary"
+              size="lg"
+              eventName={analyticsEvents.bookCage}
+              confirmOutbound
+            >
+              Rent a Cage
+            </BookingLink>
+            <Link
+              href="/memberships"
+              className={cn(buttonVariants({ variant: "ghost", size: "lg" }))}
+            >
+              Explore Memberships
+            </Link>
+          </div>
+          <ul className="mt-10 grid max-w-3xl gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { icon: MapPin, label: "Avon, Indiana" },
+              { icon: Thermometer, label: "Indoor & climate controlled" },
+              { icon: Users, label: "Baseball and softball" },
+              { icon: DoorOpen, label: "Walk-ins welcome" },
+            ].map((item) => (
+              <li
+                key={item.label}
+                className="flex items-center gap-2 rounded-md border border-border/70 bg-background/50 px-3 py-2 text-sm text-muted backdrop-blur"
+              >
+                <item.icon className="size-4 text-brand" aria-hidden />
+                {item.label}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <FadeIn>
+          <SectionHeading
+            eyebrow="Get started"
+            title="What can you book today?"
+            description="Lessons, cages, camps, and memberships — pick the path that fits your athlete."
+          />
+        </FadeIn>
+        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {quickActions.map((action, index) => (
+            <FadeIn key={action.title} delay={index * 0.05}>
+            <article
+              className="overflow-hidden rounded-lg border border-border bg-surface"
+            >
+              <div className="relative aspect-[16/10]">
+                <Image
+                  src={action.image}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(max-width:768px) 100vw, 25vw"
+                />
+              </div>
+              <div className="space-y-3 p-5">
+                <h3 className="font-display text-xl text-white">{action.title}</h3>
+                <p className="text-sm text-muted">{action.description}</p>
+                <Link
+                  href={action.href}
+                  className={cn(buttonVariants({ variant: "secondary", size: "sm" }))}
+                >
+                  {action.cta}
+                </Link>
+              </div>
+            </article>
+            </FadeIn>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-border bg-surface">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+          <FadeIn>
+            <SectionHeading
+              eyebrow="Why D-BAT Avon"
+              title="Built for serious reps in Hendricks County"
+              description="Verified details from the current Avon facility — presented as benefits, not fluff."
+            />
+          </FadeIn>
+          <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {site.whyAvon.map((item, index) => (
+              <FadeIn key={item.title} delay={index * 0.04}>
+                <div className="rounded-lg border border-border bg-background p-5">
+                  <h3 className="font-display text-xl text-white">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    {item.description}
+                  </p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <SectionHeading
+            eyebrow="Instructors"
+            title="Meet the coaching staff"
+            description="Browse baseball and softball instructors, then book directly through D-BAT Hub."
+          />
+          <Link href="/instructors" className={cn(buttonVariants({ variant: "secondary" }))}>
+            View All Instructors
+          </Link>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {featured.map((instructor) => (
+            <InstructorCard key={instructor.slug} instructor={instructor} />
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-border bg-surface">
+        <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+          <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <SectionHeading
+              eyebrow="Memberships"
+              title="Gold vs Platinum"
+              description="Save on lessons, camps, and merchandise — plus daily pitching-machine tokens."
+            />
+            <div className="flex flex-wrap gap-3">
+              <Link href="/pricing" className={cn(buttonVariants({ variant: "secondary" }))}>
+                Compare All Pricing
+              </Link>
+              <BookingLink
+                href={bookingLinks.membershipManagement}
+                variant="ghost"
+                eventName={analyticsEvents.membershipManage}
+              >
+                Manage Membership
+              </BookingLink>
+            </div>
+          </div>
+          <MembershipComparison />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <SectionHeading
+            eyebrow="Camps & Clinics"
+            title="Upcoming offerings"
+            description="Flyers and registration links from the current site. Confirm details in D-BAT Hub."
+          />
+          <Link href="/camps" className={cn(buttonVariants({ variant: "secondary" }))}>
+            View All Camps
+          </Link>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {featuredCamps.map((camp) => (
+            <CampCard key={camp.id} camp={camp} />
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-border bg-surface">
+        <div className="mx-auto grid max-w-6xl gap-8 px-4 py-20 sm:px-6 lg:grid-cols-2">
+          <div className="relative min-h-80 overflow-hidden rounded-lg">
+            <Image
+              src="/images/facility/avon-facility-2.jpg"
+              alt="D-BAT Avon indoor facility"
+              fill
+              className="object-cover"
+              sizes="(max-width:1024px) 100vw, 50vw"
+            />
+          </div>
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="Facility"
+              title="Train indoors in Avon"
+              description="Climate-controlled cages, instruction, pro shop, and birthday parties under one roof."
+            />
+            <FacilityInfoCard />
+            <Link href="/facility" className={cn(buttonVariants({ variant: "secondary" }))}>
+              Explore the Facility
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+        <div className="grid overflow-hidden rounded-lg border border-border lg:grid-cols-2">
+          <div className="relative min-h-72">
+            <Image
+              src="/images/programs/birthday-parties.jpg"
+              alt="Birthday party at D-BAT Avon"
+              fill
+              className="object-cover"
+              sizes="(max-width:1024px) 100vw, 50vw"
+            />
+          </div>
+          <div className="flex flex-col justify-center bg-surface p-8 md:p-12">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
+              Birthday Parties
+            </p>
+            <h2 className="mt-3 font-display text-4xl text-white">
+              Party options for every budget
+            </h2>
+            <p className="mt-4 text-muted">
+              From DIY to all-inclusive experiences — request a date and the Avon
+              team will follow up about availability.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link href="/birthday-parties" className={cn(buttonVariants())}>
+                Learn More
+              </Link>
+              <Link
+                href="/birthday-parties#inquire"
+                className={cn(buttonVariants({ variant: "secondary" }))}
+              >
+                Request a Party
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ConversionSection />
+    </>
+  );
+}

@@ -1,0 +1,312 @@
+{
+  "capturedAt": "2026-07-11T18:45:41.495166+00:00",
+  "sourceSite": "https://www.dbatavon.com",
+  "images": [
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/D-BAT+Logo-1920w.png",
+      "localPath": "/images/brand/dbat-logo.png",
+      "originalPage": "/",
+      "intendedUse": "logo",
+      "alt": "D-BAT Avon logo",
+      "locality": "brand",
+      "bytes": 122983
+    },
+    {
+      "sourceUrl": "https://irp.cdn-website.com/f623d4b7/dms3rep/multi/D-BAT+Logo.png",
+      "localPath": "/images/brand/dbat-logo-alt.png",
+      "originalPage": "/",
+      "intendedUse": "logo-alt",
+      "alt": "D-BAT logo",
+      "locality": "brand",
+      "bytes": 122983
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-1920w.jpg",
+      "localPath": "/images/facility/avon-facility-1.jpg",
+      "originalPage": "/memberships",
+      "intendedUse": "hero/facility",
+      "alt": "D-BAT Avon indoor training facility",
+      "locality": "local",
+      "bytes": 110829
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon1-1920w.jpg",
+      "localPath": "/images/facility/avon-facility-2.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "facility",
+      "alt": "D-BAT Avon facility interior",
+      "locality": "local",
+      "bytes": 682476
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon2-1920w.jpg",
+      "localPath": "/images/facility/avon-facility-3.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "facility",
+      "alt": "D-BAT Avon batting cages",
+      "locality": "local",
+      "bytes": 546456
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon2-1920w.png",
+      "localPath": "/images/facility/avon-placeholder-a.png",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor-placeholder",
+      "alt": "D-BAT Avon facility photo",
+      "locality": "local",
+      "bytes": 244097
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-91ec8dc3-1920w.png",
+      "localPath": "/images/facility/avon-placeholder-b.png",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor-placeholder",
+      "alt": "D-BAT Avon facility photo",
+      "locality": "local",
+      "bytes": 272802
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon3-1920w.png",
+      "localPath": "/images/facility/avon-placeholder-c.png",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor-placeholder",
+      "alt": "D-BAT Avon facility photo",
+      "locality": "local",
+      "bytes": 322453
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-1920w.png",
+      "localPath": "/images/facility/avon-facility-4.png",
+      "originalPage": "/camps",
+      "intendedUse": "facility",
+      "alt": "D-BAT Avon training space",
+      "locality": "local",
+      "bytes": 1354459
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Robb_Dure-BIO-1920w.jpg",
+      "localPath": "/images/instructors/robb-dure.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Robb Dure, baseball instructor",
+      "locality": "local",
+      "bytes": 454555
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Bryan_Nutt-BIO-1920w.jpg",
+      "localPath": "/images/instructors/bryan-nutt.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Bryan Nutt, baseball instructor",
+      "locality": "local",
+      "bytes": 382010
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/George_Stapp-BIO-1920w.jpg",
+      "localPath": "/images/instructors/george-stapp.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "George Stapp, softball instructor",
+      "locality": "local",
+      "bytes": 421997
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Sue_Anderson_2-1920w.jpg",
+      "localPath": "/images/instructors/sue-anderson.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Sue Anderson, softball instructor",
+      "locality": "local",
+      "bytes": 429403
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Coach_Vivace-1920w.jpg",
+      "localPath": "/images/instructors/jeremy-vivace.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Jeremy Vivace, softball instructor",
+      "locality": "local",
+      "bytes": 328886
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Rebekah_Cruz_1-1920w.png",
+      "localPath": "/images/instructors/rebekah-cruz.png",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Rebekah Cruz, softball instructor",
+      "locality": "local",
+      "bytes": 730787
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Brandon_Blackwell-1920w.png",
+      "localPath": "/images/instructors/brandon-blackwell.png",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Brandon Blackwell, softball instructor",
+      "locality": "local",
+      "bytes": 991303
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Anna-1920w.jpg",
+      "localPath": "/images/instructors/anna-allen.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Anna Allen, softball instructor",
+      "locality": "local",
+      "bytes": 141310
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/EllaC-1920w.jpg",
+      "localPath": "/images/instructors/ella-cochenour.jpg",
+      "originalPage": "/lessons",
+      "intendedUse": "instructor",
+      "alt": "Ella Cochenour, softball instructor",
+      "locality": "local",
+      "bytes": 125268
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/birthday-1920w.jpg",
+      "localPath": "/images/programs/birthday-parties.jpg",
+      "originalPage": "/birthday-parties",
+      "intendedUse": "birthday",
+      "alt": "Birthday party at D-BAT Avon",
+      "locality": "local",
+      "bytes": 131829
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/8-1920w.png",
+      "localPath": "/images/programs/camp-flyer-1.png",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic flyer",
+      "locality": "local",
+      "bytes": 431730
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/CadeAndKyle-1920w.jpg",
+      "localPath": "/images/programs/cade-and-kyle.jpg",
+      "originalPage": "/about-us",
+      "intendedUse": "about",
+      "alt": "D-BAT founders Cade and Kyle Griffis",
+      "locality": "generic",
+      "bytes": 105922
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2908-1920w.jpeg",
+      "localPath": "/images/facility/pro-shop-1.jpeg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "D-BAT Avon pro shop merchandise",
+      "locality": "local",
+      "bytes": 548431
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_9914-1920w.jpeg",
+      "localPath": "/images/facility/pro-shop-2.jpeg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop bats and equipment",
+      "locality": "local",
+      "bytes": 519347
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2387-1920w.jpg",
+      "localPath": "/images/facility/pro-shop-3.jpg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop apparel and gear",
+      "locality": "local",
+      "bytes": 746875
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2538-1920w.jpeg",
+      "localPath": "/images/facility/pro-shop-4.jpeg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop display",
+      "locality": "local",
+      "bytes": 713725
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2386-1920w.jpg",
+      "localPath": "/images/facility/pro-shop-5.jpg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop products",
+      "locality": "local",
+      "bytes": 605189
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_0691-1920w.jpg",
+      "localPath": "/images/facility/pro-shop-6.jpg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop interior",
+      "locality": "local",
+      "bytes": 746927
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_0692-1920w.jpg",
+      "localPath": "/images/facility/pro-shop-7.jpg",
+      "originalPage": "/pro-shop",
+      "intendedUse": "pro-shop",
+      "alt": "Pro shop gear wall",
+      "locality": "local",
+      "bytes": 595953
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/a8cdb5f4-080d-4595-8d30-7d9d4b6a17a7-TICKET.upload_file-ChatGPT-Image-Jun-11-2026-03_12_00-PM-65d980-1920w.png",
+      "localPath": "/images/programs/camp-flyer-2.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 1",
+      "locality": "local",
+      "bytes": 2880097
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/a8cdb5f4-080d-4595-8d30-7d9d4b6a17a7-TICKET.upload_file-ChatGPT-Image-Jun-11-2026-03_12_00-PM-65d980-640w.png",
+      "localPath": "/images/programs/camp-flyer-3.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 2",
+      "locality": "local",
+      "bytes": 1069695
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/d7ce1a6e-7073-430d-8e2a-5e887539183b-TICKET.upload_file-ChatGPT+Image+Jun+11-+2026-+03_48_48+PM-97f3a7-1920w.png",
+      "localPath": "/images/programs/camp-flyer-4.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 3",
+      "locality": "local",
+      "bytes": 2977566
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/d7ce1a6e-7073-430d-8e2a-5e887539183b-TICKET.upload_file-ChatGPT+Image+Jun+11-+2026-+03_48_48+PM-97f3a7-640w.png",
+      "localPath": "/images/programs/camp-flyer-5.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 4",
+      "locality": "local",
+      "bytes": 1076483
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/e94873b9-494a-460b-9277-66d987c1cf48-TICKET.upload_file-ChatGPT+Image+Jun+16-+2026-+11_07_38+AM-bf0c57-1920w.png",
+      "localPath": "/images/programs/camp-flyer-6.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 5",
+      "locality": "local",
+      "bytes": 2681095
+    },
+    {
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/e94873b9-494a-460b-9277-66d987c1cf48-TICKET.upload_file-ChatGPT+Image+Jun+16-+2026-+11_07_38+AM-bf0c57-640w.png",
+      "localPath": "/images/programs/camp-flyer-7.jpg",
+      "originalPage": "/camps",
+      "intendedUse": "camp-flyer",
+      "alt": "Camp or clinic registration flyer 6",
+      "locality": "local",
+      "bytes": 1047658
+    }
+  ]
+}

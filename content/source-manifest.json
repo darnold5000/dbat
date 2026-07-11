@@ -1,0 +1,261 @@
+{
+  "sourceSite": "https://www.dbatavon.com",
+  "capturedAt": "2026-07-11T18:45:00.000Z",
+  "business": {
+    "name": "D-BAT Avon",
+    "phone": "463-266-3228",
+    "phoneTel": "tel:+14632663228",
+    "email": null,
+    "address": {
+      "street": "7508 Beechwood Centre",
+      "unit": "Unit 700",
+      "city": "Avon",
+      "state": "IN",
+      "postalCode": "46123"
+    },
+    "hours": [
+      { "days": "Monday–Friday", "open": "10:00 am", "close": "9:00 pm" },
+      { "days": "Saturday", "open": "10:00 am", "close": "6:00 pm" },
+      { "days": "Sunday", "open": "12:00 pm", "close": "6:00 pm" }
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Pricing", "href": "/menu" },
+    { "label": "Memberships", "href": "/memberships" },
+    { "label": "Batting Cages", "href": "/batting-cages" },
+    { "label": "Lessons", "href": "/lessons" },
+    { "label": "Camps & Clinics", "href": "/camps" },
+    { "label": "Birthday Parties", "href": "/birthday-parties" },
+    { "label": "Pro Shop", "href": "/pro-shop" },
+    { "label": "About D-BAT", "href": "/about-us" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Work at D-BAT", "href": "/work-at-d-batb400e4a7" },
+    { "label": "Own a D-BAT", "href": "https://www.dbatfranchises.com/" },
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Manage Membership", "href": "/manage-membership" }
+  ],
+  "bookingLinks": {
+    "lesson": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845",
+    "cage": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=843",
+    "camp": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=844&eventTypeFilter%5B%5D=846",
+    "membershipSignup": "https://app.dbathub.com/customers/144-d-bat-avon/memberships",
+    "membershipManagement": "https://www.dbatavon.com/manage-membership"
+  },
+  "socialLinks": {
+    "facebook": "https://facebook.com/avonhouseofball",
+    "instagram": "https://instagram.com/dbatavon"
+  },
+  "franchise": {
+    "corporate": "https://www.dbatfranchises.com/",
+    "jobs": "https://www.dbatavon.com/work-at-d-batb400e4a7"
+  },
+  "instructors": [
+    {
+      "name": "Robb Dure",
+      "sport": "baseball",
+      "image": "/images/instructors/robb-dure.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=493001",
+      "staffId": "493001"
+    },
+    {
+      "name": "Bryan Nutt",
+      "sport": "baseball",
+      "image": "/images/instructors/bryan-nutt.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=862195",
+      "staffId": "862195"
+    },
+    {
+      "name": "Levi Raspberry",
+      "sport": "baseball",
+      "image": "/images/facility/avon-placeholder-a.png",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845",
+      "staffId": null,
+      "notes": "No individual staffFilter booking link found on source lessons page; uses general lesson booking."
+    },
+    {
+      "name": "Brett Poindexter",
+      "sport": "baseball",
+      "image": "/images/facility/avon-placeholder-b.png",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1703369",
+      "staffId": "1703369",
+      "notes": "Source used facility placeholder image instead of dedicated headshot."
+    },
+    {
+      "name": "George Stapp",
+      "sport": "softball",
+      "image": "/images/instructors/george-stapp.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=505059",
+      "staffId": "505059"
+    },
+    {
+      "name": "Sue Anderson",
+      "sport": "softball",
+      "image": "/images/instructors/sue-anderson.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1071357",
+      "staffId": "1071357"
+    },
+    {
+      "name": "Jeremy Vivace",
+      "sport": "softball",
+      "image": "/images/instructors/jeremy-vivace.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1456858",
+      "staffId": "1456858"
+    },
+    {
+      "name": "Rebekah Cruz",
+      "sport": "softball",
+      "image": "/images/instructors/rebekah-cruz.png",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1117147",
+      "staffId": "1117147"
+    },
+    {
+      "name": "Brandon Blackwell",
+      "sport": "softball",
+      "image": "/images/instructors/brandon-blackwell.png",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1420682",
+      "staffId": "1420682"
+    },
+    {
+      "name": "Anna Allen",
+      "sport": "softball",
+      "image": "/images/instructors/anna-allen.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2012438",
+      "staffId": "2012438"
+    },
+    {
+      "name": "Ella Cochenour",
+      "sport": "softball",
+      "image": "/images/instructors/ella-cochenour.jpg",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2040764",
+      "staffId": "2040764"
+    },
+    {
+      "name": "Peyton Norman",
+      "sport": "softball",
+      "image": "/images/facility/avon-placeholder-c.png",
+      "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845",
+      "staffId": null,
+      "notes": "No individual staffFilter booking link found; uses general lesson booking. Source used facility placeholder image."
+    }
+  ],
+  "membershipPlans": [
+    {
+      "name": "Platinum",
+      "priceMonthly": 58,
+      "badge": "BEST VALUE",
+      "benefits": [
+        "UNLIMITED Pitching Machine Tokens per day",
+        "30% OFF Lessons",
+        "30% OFF Camps and Clinics",
+        "15% OFF Pro Shop Merchandise"
+      ],
+      "disclaimer": "Memberships are for individual use only.",
+      "whoFits": "Perfect for players taking 1 hour lessons every week."
+    },
+    {
+      "name": "Gold",
+      "priceMonthly": 38,
+      "badge": null,
+      "benefits": [
+        "15 FREE Pitching Machine Tokens per day",
+        "20% OFF Lessons",
+        "20% OFF Camps and Clinics",
+        "10% OFF Pro Shop Merchandise"
+      ],
+      "disclaimer": "Memberships are for individual use only.",
+      "whoFits": "Perfect for athletes who hit on the machines once a week."
+    }
+  ],
+  "pricing": {
+    "lastVerified": "2026-07-11",
+    "validityNote": "Memberships are valid at all D-BAT Locations WORLDWIDE and are for INDIVIDUAL use only.",
+    "rows": [
+      { "item": "1/2 Hr Lesson", "platinum": 31.5, "gold": 36, "nonMember": 45 },
+      { "item": "1 Hr Lesson", "platinum": 59.5, "gold": 68, "nonMember": 85 },
+      { "item": "1/2 Hr Cage Rental", "platinum": 17.5, "gold": 20, "nonMember": 25 },
+      { "item": "1 Hr Cage Rental", "platinum": 35, "gold": 40, "nonMember": 50 }
+    ]
+  },
+  "camps": [
+    {
+      "id": "87750",
+      "slug": "mvp-sliding-class",
+      "title": "MVP Sliding Class",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/87750-mvp-sliding-class",
+      "status": "unknown"
+    },
+    {
+      "id": "87754",
+      "slug": "peyton-normans-catching-clinic",
+      "title": "Peyton Norman's Catching Clinic",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/87754-peyton-normans-catching-clinic",
+      "status": "unknown"
+    },
+    {
+      "id": "83658",
+      "slug": "summer-softball-training-ages-10-14",
+      "title": "Summer Softball Training (Ages 10–14)",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/83658-summer-softball-training-ages-10-14",
+      "status": "unknown"
+    },
+    {
+      "id": "83654",
+      "slug": "summer-baseball-skills-clinic",
+      "title": "Summer Baseball Skills Clinic",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/83654-summer-baseball-skills-clinic",
+      "status": "unknown"
+    },
+    {
+      "id": "83648",
+      "slug": "all-aspects-summer-camp",
+      "title": "All Aspects Summer Camp",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/83648-all-aspects-summer-camp",
+      "status": "unknown"
+    },
+    {
+      "id": "88013",
+      "slug": "live-batting-practice",
+      "title": "Live Batting Practice",
+      "registrationUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events/88013-live-batting-practice",
+      "status": "unknown"
+    }
+  ],
+  "facilityNotes": [
+    "Indoor, climate-controlled facility",
+    "Pitching-machine cages use REAL baseballs and softballs",
+    "Machines accommodate baseball, slow-pitch softball, and fast-pitch softball",
+    "Machine lanes are first come, first served (not reserved in advance)",
+    "Cage rentals do NOT include pitching machines",
+    "Cage rental includes baseballs/softballs, batting tee, and L-screen",
+    "Walk-ins welcome; membership not required to visit"
+  ],
+  "brokenOrPlaceholderContent": [
+    {
+      "page": "/camps",
+      "issue": "Placeholder heading 'Breathtaking colors of our planet' present on source site"
+    },
+    {
+      "page": "/pro-shop",
+      "issue": "Generic travel/nature gallery placeholder copy (Beyond Boundaries, Faces of Humanity, Sands of Time, etc.)"
+    },
+    {
+      "page": "/privacy-policy",
+      "issue": "Privacy policy appears to be a franchise template referencing D-BAT East Dallas / Texas — needs Avon-specific owner review"
+    }
+  ],
+  "pages": [
+    { "path": "/", "title": "Baseball & Softball Lessons | D-BAT Avon | Avon, IN", "status": "crawled" },
+    { "path": "/menu", "title": "Baseball & Softball Pricing | D-BAT Avon | Avon", "status": "crawled", "mapsTo": "/pricing" },
+    { "path": "/memberships", "title": "Baseball & Softball Memberships | D-BAT Avon | Avon", "status": "crawled" },
+    { "path": "/batting-cages", "title": "Batting Cages", "status": "crawled" },
+    { "path": "/lessons", "title": "Baseball & Softball Lessons | D-BAT Avon | Avon", "status": "crawled" },
+    { "path": "/camps", "title": "Camps & Clinics", "status": "crawled" },
+    { "path": "/birthday-parties", "title": "Birthday Parties", "status": "crawled" },
+    { "path": "/pro-shop", "title": "Pro Shop", "status": "crawled" },
+    { "path": "/about-us", "title": "About D-BAT", "status": "crawled", "mapsTo": "/about" },
+    { "path": "/contact", "title": "Contact", "status": "crawled" },
+    { "path": "/privacy-policy", "title": "Privacy Policy", "status": "crawled", "mapsTo": "/privacy" },
+    { "path": "/manage-membership", "title": "Manage Membership", "status": "crawled", "note": "On-site membership change form; preserved as outbound link for demo" }
+  ]
+}
