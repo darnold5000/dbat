@@ -1,17 +1,29 @@
 import { bookingLinks } from "@/config/booking-links";
 
+export type AvailabilityStatus = "accepting" | "limited" | "ask";
+
 export type Instructor = {
   slug: string;
   name: string;
   sport: "baseball" | "softball";
   image: string;
   bookingUrl: string;
+  /** Only populate when verified by the owner. */
   specialties?: string[];
+  yearsCoaching?: number;
+  availability?: AvailabilityStatus;
+  favoriteDrill?: string;
+  philosophy?: string;
   bio?: string;
   credentials?: string[];
   isFeatured?: boolean;
 };
 
+/**
+ * Rich profile fields (specialties, years, philosophy, drills) are left empty
+ * until the owner supplies verified copy. Cards still surface sport + booking
+ * status so parents can choose confidently without invented credentials.
+ */
 export const instructors: Instructor[] = [
   {
     slug: "robb-dure",
@@ -20,6 +32,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/robb-dure.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=493001",
+    availability: "accepting",
     isFeatured: true,
   },
   {
@@ -29,6 +42,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/bryan-nutt.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=862195",
+    availability: "accepting",
     isFeatured: true,
   },
   {
@@ -37,6 +51,7 @@ export const instructors: Instructor[] = [
     sport: "baseball",
     image: "/images/facility/avon-placeholder-a.png",
     bookingUrl: bookingLinks.lessons,
+    availability: "ask",
   },
   {
     slug: "brett-poindexter",
@@ -45,6 +60,7 @@ export const instructors: Instructor[] = [
     image: "/images/facility/avon-placeholder-b.png",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1703369",
+    availability: "accepting",
   },
   {
     slug: "george-stapp",
@@ -53,6 +69,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/george-stapp.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=505059",
+    availability: "accepting",
     isFeatured: true,
   },
   {
@@ -62,6 +79,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/sue-anderson.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1071357",
+    availability: "accepting",
     isFeatured: true,
   },
   {
@@ -71,6 +89,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/jeremy-vivace.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1456858",
+    availability: "accepting",
   },
   {
     slug: "rebekah-cruz",
@@ -79,6 +98,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/rebekah-cruz.png",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1117147",
+    availability: "accepting",
   },
   {
     slug: "brandon-blackwell",
@@ -87,6 +107,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/brandon-blackwell.png",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1420682",
+    availability: "accepting",
   },
   {
     slug: "anna-allen",
@@ -95,6 +116,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/anna-allen.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2012438",
+    availability: "accepting",
   },
   {
     slug: "ella-cochenour",
@@ -103,6 +125,7 @@ export const instructors: Instructor[] = [
     image: "/images/instructors/ella-cochenour.jpg",
     bookingUrl:
       "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2040764",
+    availability: "accepting",
   },
   {
     slug: "peyton-norman",
@@ -110,6 +133,7 @@ export const instructors: Instructor[] = [
     sport: "softball",
     image: "/images/facility/avon-placeholder-c.png",
     bookingUrl: bookingLinks.lessons,
+    availability: "ask",
   },
 ];
 
@@ -124,3 +148,9 @@ export function getFeaturedInstructors(limit = 4) {
   const featured = instructors.filter((i) => i.isFeatured);
   return (featured.length ? featured : instructors).slice(0, limit);
 }
+
+export const availabilityLabels: Record<AvailabilityStatus, string> = {
+  accepting: "Accepting bookings",
+  limited: "Limited openings",
+  ask: "Ask about availability",
+};

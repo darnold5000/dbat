@@ -10,6 +10,7 @@ import { bookingLinks } from "@/config/booking-links";
 import { BookingLink } from "@/components/booking/BookingLink";
 import { analyticsEvents, trackEvent } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
 
 export function AnnouncementBar() {
   if (!siteConfig.announcement.enabled || !siteConfig.announcement.message) {
@@ -26,7 +27,7 @@ export function AnnouncementBar() {
 
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [trainingOpen, setTrainingOpen] = useState(false);
+  const [openSection, setOpenSection] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
@@ -133,21 +134,28 @@ export function SiteHeader() {
               <div key={item.label} className="border-b border-border">
                 <button
                   type="button"
-                  className="flex w-full min-h-11 items-center justify-between py-3 text-left text-white"
-                  onClick={() => setTrainingOpen((v) => !v)}
-                  aria-expanded={trainingOpen}
+                  className="flex w-full min-h-12 items-center justify-between py-3 text-left text-white"
+                  onClick={() =>
+                    setOpenSection((current) =>
+                      current === item.label ? null : item.label,
+                    )
+                  }
+                  aria-expanded={openSection === item.label}
                 >
                   {item.label}
                   <ChevronDown
-                    className={cn("size-4 transition", trainingOpen && "rotate-180")}
+                    className={cn(
+                      "size-4 transition",
+                      openSection === item.label && "rotate-180",
+                    )}
                   />
                 </button>
-                {trainingOpen
+                {openSection === item.label
                   ? item.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block py-2 pl-4 text-sm text-muted"
+                        className="block py-2.5 pl-4 text-sm text-muted"
                         onClick={() => setMobileOpen(false)}
                       >
                         {child.label}
@@ -167,6 +175,13 @@ export function SiteHeader() {
             ),
           )}
           <div className="mt-4 flex flex-col gap-2">
+            <Link
+              href="/coach-finder"
+              className={cn(buttonVariants({ variant: "outline" }), "w-full")}
+              onClick={() => setMobileOpen(false)}
+            >
+              AI Coach Finder
+            </Link>
             <BookingLink
               href={bookingLinks.lessons}
               eventName={analyticsEvents.bookLesson}

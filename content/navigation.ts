@@ -17,7 +17,14 @@ export const primaryNav: NavItem[] = [
       { label: "Birthday Parties", href: "/birthday-parties" },
     ],
   },
-  { label: "Instructors", href: "/instructors" },
+  {
+    label: "Instructors",
+    href: "/instructors",
+    children: [
+      { label: "All Instructors", href: "/instructors" },
+      { label: "AI Coach Finder", href: "/coach-finder" },
+    ],
+  },
   { label: "Camps & Clinics", href: "/camps" },
   { label: "Memberships", href: "/memberships" },
   { label: "Facility", href: "/facility" },

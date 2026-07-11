@@ -5,6 +5,7 @@ import {
   getInstructorBySlug,
   instructorFallbackBio,
   instructors,
+  availabilityLabels,
 } from "@/content/instructors";
 import { createMetadata } from "@/lib/metadata";
 import { BookingLink } from "@/components/booking/BookingLink";
@@ -67,13 +68,33 @@ export default async function InstructorDetailPage({
           />
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand">
-            {instructor.sport} instructor
-          </p>
-          <h1 className="mt-3 font-display text-5xl text-white">{instructor.name}</h1>
+          <div className="flex flex-wrap gap-2">
+            <span className="rounded bg-brand px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
+              {instructor.sport}
+            </span>
+            <span className="rounded bg-white/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-muted">
+              {availabilityLabels[instructor.availability ?? "ask"]}
+            </span>
+          </div>
+          <h1 className="mt-3 font-display text-4xl text-white sm:text-5xl">
+            {instructor.name}
+          </h1>
+          {instructor.yearsCoaching ? (
+            <p className="mt-2 text-sm text-muted">
+              {instructor.yearsCoaching}+ years coaching
+            </p>
+          ) : null}
           <p className="mt-6 max-w-2xl text-muted leading-relaxed">
-            {instructor.bio ?? instructorFallbackBio}
+            {instructor.philosophy
+              ? `"${instructor.philosophy}"`
+              : (instructor.bio ?? instructorFallbackBio)}
           </p>
+          {instructor.favoriteDrill ? (
+            <p className="mt-4 text-sm text-muted">
+              <span className="text-white">Favorite drill:</span>{" "}
+              {instructor.favoriteDrill}
+            </p>
+          ) : null}
           {instructor.specialties?.length ? (
             <ul className="mt-4 flex flex-wrap gap-2">
               {instructor.specialties.map((s) => (
@@ -85,7 +106,12 @@ export default async function InstructorDetailPage({
                 </li>
               ))}
             </ul>
-          ) : null}
+          ) : (
+            <p className="mt-4 text-sm text-muted">
+              {/* TODO: Owner to supply verified specialties, years, philosophy */}
+              Ask about this instructor&apos;s lesson focus when you book.
+            </p>
+          )}
           <div className="mt-8 flex flex-wrap gap-3">
             <BookingLink
               href={instructor.bookingUrl}
@@ -95,6 +121,12 @@ export default async function InstructorDetailPage({
             >
               Book With {instructor.name.split(" ")[0]}
             </BookingLink>
+            <Link
+              href="/coach-finder"
+              className={cn(buttonVariants({ variant: "outline" }))}
+            >
+              Try Coach Finder
+            </Link>
             <Link
               href="/instructors"
               className={cn(buttonVariants({ variant: "secondary" }))}

@@ -12,9 +12,11 @@ Items that need owner confirmation before production launch.
 ## Staff
 
 - [ ] Provide bios / specialties / credentials for instructors (none published on current site)
+- [ ] Provide years coaching, favorite drill, and coaching philosophy per instructor (rich card fields are ready)
 - [ ] Provide dedicated headshots for Levi Raspberry, Brett Poindexter, and Peyton Norman (source used facility placeholders)
 - [ ] Confirm booking links for Levi Raspberry and Peyton Norman (no individual staffFilter found)
 - [ ] Confirm current instructor roster is complete and ordered as preferred
+- [ ] Confirm availability badge rules (accepting / limited / ask)
 
 ## Camps & events
 
@@ -30,6 +32,12 @@ Items that need owner confirmation before production launch.
 - [ ] Confirm whether birthday-party packages / inclusions should be listed (not detailed on source)
 - [ ] Confirm Google Analytics 4 measurement ID (`NEXT_PUBLIC_GA_ID`)
 - [ ] Confirm production domain and when to remove `noindex`
+
+## Media
+
+- [ ] Approve homepage hero video reuse / supply compressed web master
+- [ ] Supply drone footage for facility tour if available
+- [ ] Confirm live facility occupancy feed (or keep static pulse as concept)
 
 ## Pro shop
 

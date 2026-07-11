@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/batting-cages",
     "/baseball-training",
     "/softball-training",
+    "/coach-finder",
     "/camps",
     "/memberships",
     "/pricing",
