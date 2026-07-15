@@ -21,9 +21,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = createMetadata({
-  title: "Baseball & Softball Training in Avon, IN | D-BAT Avon",
+  title: "Baseball & Softball Training | Batter Up",
   description:
-    "Private baseball and softball lessons, indoor batting cages, camps, clinics, memberships, and year-round training at D-BAT Avon.",
+    "Private baseball and softball lessons, indoor batting cages, camps, clinics, memberships, and year-round training at Batter Up.",
   path: "/",
 });
 

@@ -12,56 +12,54 @@ export type Camp = {
   status: "upcoming" | "past" | "unknown";
 };
 
-// Flyer images paired by registration order on the source camps page.
-// Dates/prices intentionally omitted until owner verifies structured details.
 export const camps: Camp[] = [
   {
-    id: "87750",
-    title: "MVP Sliding Class",
+    id: "camp-hitting",
+    title: "Summer Hitting Lab",
     image: "/images/programs/camp-flyer-2.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/87750-mvp-sliding-class",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "Ages 8–14",
+    status: "upcoming",
   },
   {
-    id: "87754",
-    title: "Peyton Norman's Catching Clinic",
+    id: "camp-catching",
+    title: "Catching Skills Clinic",
     image: "/images/programs/camp-flyer-3.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/87754-peyton-normans-catching-clinic",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "Ages 10–16",
+    status: "upcoming",
   },
   {
-    id: "83658",
-    title: "Summer Softball Training (Ages 10–14)",
+    id: "camp-softball",
+    title: "Softball Skills Camp",
     image: "/images/programs/camp-flyer-4.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/83658-summer-softball-training-ages-10-14",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "Ages 10–14",
+    status: "upcoming",
   },
   {
-    id: "83654",
-    title: "Summer Baseball Skills Clinic",
+    id: "camp-baseball",
+    title: "Baseball Skills Clinic",
     image: "/images/programs/camp-flyer-5.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/83654-summer-baseball-skills-clinic",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "Ages 8–12",
+    status: "upcoming",
   },
   {
-    id: "83648",
+    id: "camp-all-aspects",
     title: "All Aspects Summer Camp",
     image: "/images/programs/camp-flyer-6.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/83648-all-aspects-summer-camp",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "Ages 7–14",
+    status: "upcoming",
   },
   {
-    id: "88013",
+    id: "camp-live-bp",
     title: "Live Batting Practice",
     image: "/images/programs/camp-flyer-7.jpg",
-    registrationUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events/88013-live-batting-practice",
-    status: "unknown",
+    registrationUrl: bookingLinks.camps,
+    ageRange: "All ages",
+    status: "upcoming",
   },
 ];
 

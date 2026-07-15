@@ -8,7 +8,7 @@ export function localBusinessJsonLd() {
     description: siteConfig.description,
     telephone: siteConfig.phone,
     url: siteConfig.url,
-    image: `${siteConfig.url}/images/brand/dbat-logo.png`,
+    image: `${siteConfig.url}/images/brand/batter-up-logo.png`,
     address: {
       "@type": "PostalAddress",
       streetAddress: `${siteConfig.address.street}, ${siteConfig.address.unit}`,
@@ -47,7 +47,7 @@ export function organizationJsonLd() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/brand/dbat-logo.png`,
+    logo: `${siteConfig.url}/images/brand/batter-up-logo.png`,
     address: formatAddress(),
     telephone: siteConfig.phone,
   };

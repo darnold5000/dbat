@@ -5,7 +5,7 @@ export function PricingComparison() {
     <div className="space-y-4">
       <div className="overflow-x-auto rounded-lg border border-border">
         <table className="min-w-full text-left text-sm">
-          <caption className="sr-only">D-BAT Avon pricing comparison</caption>
+          <caption className="sr-only">Batter Up pricing comparison</caption>
           <thead className="bg-surface-elevated text-xs uppercase tracking-wide text-muted">
             <tr>
               <th scope="col" className="px-4 py-3 font-medium">

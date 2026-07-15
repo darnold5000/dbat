@@ -16,7 +16,7 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Private Baseball & Softball Lessons",
   description:
-    "Book private baseball and softball lessons at D-BAT Avon. Browse instructors, compare pricing, and schedule through D-BAT Hub.",
+    "Book private baseball and softball lessons at Batter Up. Browse instructors, compare pricing, and schedule through our booking system.",
   path: "/lessons",
 });
 
@@ -32,9 +32,9 @@ export default function LessonsPage() {
       <PageHero
         eyebrow="Private Lessons"
         title="Instruction built around the player"
-        description="At D-BAT Avon, lessons keep the ballplayer as the focus while involving parents during the session. Instructors work with athletes at every level — and rely on parent feedback from games."
+        description="At Batter Up, lessons keep the ballplayer as the focus while involving parents during the session. Instructors work with athletes at every level — and rely on parent feedback from games."
         image="/images/facility/avon-facility-3.jpg"
-        imageAlt="Training at D-BAT Avon"
+        imageAlt="Training at Batter Up"
         actions={
           <>
             <PrimaryCTA href="/instructors">Choose an Instructor</PrimaryCTA>
@@ -64,7 +64,7 @@ export default function LessonsPage() {
             <ol className="list-decimal space-y-3 pl-5 text-muted">
               <li>Browse baseball or softball instructors.</li>
               <li>Open an instructor profile or book directly.</li>
-              <li>Complete scheduling in D-BAT’s secure booking system.</li>
+              <li>Complete scheduling in Batter Up’s secure booking system.</li>
             </ol>
           </div>
           <div className="rounded-lg border border-border bg-surface p-6">

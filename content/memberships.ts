@@ -13,9 +13,9 @@ export type MembershipPlan = {
 export const memberships = {
   disclaimer: "Memberships are for individual use only.",
   validityNote:
-    "Memberships are valid at all D-BAT Locations WORLDWIDE and are for INDIVIDUAL use only.",
+    "Memberships are for individual use only and apply at the Batter Up facility.",
   intro:
-    "D-BAT Memberships award you with discounts on lessons, camps and clinics, cage rentals, and pro shop merchandise. One of the biggest benefits to being a member is being able to use the pitching machines for free every day — the perfect way to get reps and warm up before a hitting lesson.",
+    "Batter Up memberships award you with discounts on lessons, camps and clinics, cage rentals, and pro shop merchandise. One of the biggest benefits to being a member is being able to use the pitching machines for free every day — the perfect way to get reps and warm up before a hitting lesson.",
   noMembershipNote:
     "No membership: a good fit if you are only taking a 30-minute lesson per week.",
   plans: [

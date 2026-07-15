@@ -14,8 +14,8 @@ export const locations: Record<
 > = {
   avon: {
     id: "avon",
-    name: "D-BAT Avon",
-    city: "Avon",
+    name: "Batter Up",
+    city: "Riverside",
     state: "IN",
     path: "/",
   },

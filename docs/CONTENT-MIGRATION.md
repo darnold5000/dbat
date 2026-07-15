@@ -1,6 +1,6 @@
 # Content Migration
 
-Source site audited: https://www.dbatavon.com  
+Source site audited: https://www.batterup.example  
 Capture date: 2026-07-11
 
 ## Manifests

@@ -30,7 +30,7 @@ export async function POST(request: Request) {
   if (parsed.data.website) {
     return NextResponse.json({
       message:
-        "Thanks — your request has been received. A D-BAT Avon team member will contact you to discuss availability and details.",
+        "Thanks — your request has been received. A Batter Up team member will contact you to discuss availability and details.",
     });
   }
 
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
       await resend.emails.send({
         from: env.CONTACT_FROM_EMAIL!,
         to: env.CONTACT_TO_EMAIL!,
-        subject: "[D-BAT Avon] Birthday party inquiry",
+        subject: "[Batter Up] Birthday party inquiry",
         text: [
           `Parent: ${data.parentName}`,
           `Email: ${data.email}`,
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     message:
-      "Thanks — your request has been received. A D-BAT Avon team member will contact you to discuss availability and details.",
+      "Thanks — your request has been received. A Batter Up team member will contact you to discuss availability and details.",
     demo: !env.emailReady,
   });
 }

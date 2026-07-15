@@ -10,12 +10,12 @@ export { memberships as locationMemberships } from "@/content/memberships";
 export { camps as locationCamps } from "@/content/camps";
 
 export const locationMeta = {
-  id: "avon",
-  brand: "D-BAT",
-  name: "D-BAT Avon",
-  city: "Avon",
+  id: "riverside",
+  brand: "Batter Up",
+  name: "Batter Up",
+  city: "Riverside",
   state: "IN",
-  slug: "avon",
+  slug: "riverside",
 } as const;
 
 export const hero = {

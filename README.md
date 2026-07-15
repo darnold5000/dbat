@@ -1,6 +1,6 @@
-# D-BAT Avon Website Redesign Concept
+# Batter Up Website Redesign Concept
 
-Private redesign concept for [D-BAT Avon](https://www.dbatavon.com/) prepared by Signal Works.
+Private redesign concept for [Batter Up](https://www.batterup.example/) prepared by Signal Works.
 
 ## Stack
 

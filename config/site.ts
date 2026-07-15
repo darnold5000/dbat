@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: "D-BAT Avon",
-  legalName: "D-BAT Avon",
-  tagline: "Baseball & Softball Training in Avon, Indiana",
+  name: "Batter Up",
+  legalName: "Batter Up Training Academy",
+  tagline: "Baseball & Softball Training",
   description:
-    "Private baseball and softball lessons, indoor batting cages, camps, clinics, memberships, and year-round training at D-BAT Avon.",
+    "Private baseball and softball lessons, indoor batting cages, camps, clinics, memberships, and year-round training at Batter Up.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  phone: "463-266-3228",
-  phoneTel: "tel:+14632663228",
+  phone: "(317) 555-0188",
+  phoneTel: "tel:+13175550188",
   address: {
-    street: "7508 Beechwood Centre",
-    unit: "Unit 700",
-    city: "Avon",
+    street: "4200 Diamond Way",
+    unit: "Suite 100",
+    city: "Riverside",
     state: "IN",
-    postalCode: "46123",
+    postalCode: "46055",
     country: "US",
   },
   hours: [
@@ -21,17 +21,17 @@ export const siteConfig = {
     { days: "Sunday", open: "12:00 pm", close: "6:00 pm" },
   ],
   social: {
-    facebook: "https://facebook.com/avonhouseofball",
-    instagram: "https://instagram.com/dbatavon",
+    facebook: "https://facebook.com/batterup.academy",
+    instagram: "https://instagram.com/batterup.academy",
   },
   franchise: {
-    corporate: "https://www.dbatfranchises.com/",
-    jobs: "https://www.dbatavon.com/work-at-d-batb400e4a7",
+    corporate: "/about",
+    jobs: "/contact",
   },
   maps: {
     directions:
-      "https://www.google.com/maps/dir/?api=1&destination=7508+Beechwood+Centre+Unit+700+Avon+IN+46123",
-    embedQuery: "7508 Beechwood Centre Unit 700 Avon IN 46123",
+      "https://www.google.com/maps/dir/?api=1&destination=4200+Diamond+Way+Suite+100+Riverside+IN+46055",
+    embedQuery: "4200 Diamond Way Suite 100 Riverside IN 46055",
   },
   announcement: {
     enabled: false,

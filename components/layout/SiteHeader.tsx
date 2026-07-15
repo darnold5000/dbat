@@ -35,14 +35,16 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="flex items-center gap-3 shrink-0">
           <Image
-            src="/images/brand/dbat-logo.png"
-            alt="D-BAT Avon"
-            width={140}
+            src="/images/brand/batter-up-logo.png"
+            alt="Batter Up"
+            width={48}
             height={48}
-            className="h-10 w-auto"
+            className="h-10 w-10 rounded-lg object-cover"
             priority
           />
-          <span className="sr-only">D-BAT Avon</span>
+          <span className="font-display text-lg tracking-wide text-white">
+            Batter Up
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">

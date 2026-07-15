@@ -11,7 +11,7 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Camps & Clinics",
   description:
-    "Browse camps and clinics at D-BAT Avon and register through D-BAT Hub.",
+    "Browse camps and clinics at Batter Up and register through our booking system.",
   path: "/camps",
 });
 
@@ -24,9 +24,9 @@ export default function CampsPage() {
       <PageHero
         eyebrow="Camps & Clinics"
         title="Register for the next session"
-        description="Flyers and registration links preserved from the current D-BAT Avon site. Confirm dates, ages, and pricing in the booking system."
+        description="Flyers and registration links preserved from the current Batter Up site. Confirm dates, ages, and pricing in the booking system."
         image="/images/facility/avon-facility-2.jpg"
-        imageAlt="Athletes training at D-BAT Avon"
+        imageAlt="Athletes training at Batter Up"
         actions={
           <BookingLink
             href={campsListingUrl}
@@ -41,7 +41,7 @@ export default function CampsPage() {
         <Breadcrumbs items={[{ label: "Camps & Clinics" }]} />
         {camps.length === 0 ? (
           <p className="rounded-lg border border-border bg-surface p-10 text-center text-muted">
-            No camps are published right now. Check back soon or call D-BAT Avon.
+            No camps are published right now. Check back soon or call Batter Up.
           </p>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -52,7 +52,7 @@ export default function CampsPage() {
         )}
         <p className="mt-8 text-sm text-muted">
           {/* TODO: Owner approval needed to mark camps as upcoming vs archived and add verified dates/prices. */}
-          Flyer text may include dates and prices — verify in D-BAT Hub before registering.
+          Flyer text may include dates and prices — verify in our booking system before registering.
         </p>
       </div>
     </>

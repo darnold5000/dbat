@@ -9,7 +9,7 @@ export function SocialLinks({ className }: { className?: string }) {
     <div className={className ?? "flex items-center gap-3"}>
       <a
         href={siteConfig.social.facebook}
-        aria-label="D-BAT Avon on Facebook"
+        aria-label="Batter Up on Facebook"
         className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border border-border text-muted hover:text-white"
         rel="noopener noreferrer"
         onClick={() => trackEvent(analyticsEvents.social, { network: "facebook" })}
@@ -18,7 +18,7 @@ export function SocialLinks({ className }: { className?: string }) {
       </a>
       <a
         href={siteConfig.social.instagram}
-        aria-label="D-BAT Avon on Instagram"
+        aria-label="Batter Up on Instagram"
         className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border border-border text-muted hover:text-white"
         rel="noopener noreferrer"
         onClick={() => trackEvent(analyticsEvents.social, { network: "instagram" })}

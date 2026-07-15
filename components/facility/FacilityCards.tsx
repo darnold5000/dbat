@@ -6,7 +6,7 @@ import { analyticsEvents } from "@/lib/analytics";
 export function FacilityInfoCard() {
   return (
     <div className="rounded-lg border border-border bg-surface p-6">
-      <h3 className="font-display text-2xl text-white">D-BAT Avon</h3>
+      <h3 className="font-display text-2xl text-white">Batter Up</h3>
       <div className="mt-5 space-y-4 text-sm text-muted">
         <p className="flex gap-3">
           <MapPin className="mt-0.5 size-4 shrink-0 text-brand" aria-hidden />
@@ -72,7 +72,7 @@ export function MapCard() {
   return (
     <div className="overflow-hidden rounded-lg border border-border bg-surface">
       <iframe
-        title="Map of D-BAT Avon"
+        title="Map of Batter Up"
         src={`https://maps.google.com/maps?q=${query}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
         className="h-72 w-full border-0 grayscale-[20%]"
         loading="lazy"

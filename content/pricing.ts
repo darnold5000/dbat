@@ -8,11 +8,11 @@ export type PricingRow = {
 export const pricing = {
   lastVerified: "2026-07-11",
   validityNote:
-    "Memberships are valid at all D-BAT Locations WORLDWIDE and are for INDIVIDUAL use only.",
+    "Memberships are for individual use only and apply at the Batter Up facility.",
   disclaimer:
-    "Pricing shown as published on the current D-BAT Avon website. Confirm with the facility before booking.",
+    "Sample pricing for this redesign concept. Confirm with the facility before booking.",
   walkInsNote:
-    "Walk-ins are welcome. You do not need a membership to visit D-BAT Avon.",
+    "Walk-ins are welcome. You do not need a membership to visit Batter Up.",
   rows: [
     { item: "1/2 Hr Lesson", platinum: 31.5, gold: 36, nonMember: 45 },
     { item: "1 Hr Lesson", platinum: 59.5, gold: 68, nonMember: 85 },

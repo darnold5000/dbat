@@ -12,7 +12,7 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Birthday Parties",
   description:
-    "Request a birthday party at D-BAT Avon. Party options range from DIY to all-inclusive.",
+    "Request a birthday party at Batter Up. Party options range from DIY to all-inclusive.",
   path: "/birthday-parties",
   image: "/images/programs/birthday-parties.jpg",
 });
@@ -31,7 +31,7 @@ export default function BirthdayPartiesPage() {
         title="Celebrate at the cages"
         description="Party options range from DIY to all-inclusive — find the right fit for your budget. Submitting a request does not guarantee availability."
         image="/images/programs/birthday-parties.jpg"
-        imageAlt="Birthday party at D-BAT Avon"
+        imageAlt="Birthday party at Batter Up"
       />
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <Breadcrumbs items={[{ label: "Birthday Parties" }]} />
@@ -39,12 +39,12 @@ export default function BirthdayPartiesPage() {
           <div>
             <SectionHeading
               title="Party overview"
-              description="Host a memorable baseball or softball birthday at D-BAT Avon’s indoor facility."
+              description="Host a memorable baseball or softball birthday at Batter Up’s indoor facility."
             />
             <div className="relative mt-8 aspect-[16/10] overflow-hidden rounded-lg">
               <Image
                 src="/images/programs/birthday-parties.jpg"
-                alt="Kids celebrating at D-BAT Avon"
+                alt="Kids celebrating at Batter Up"
                 fill
                 className="object-cover"
                 sizes="(max-width:1024px) 100vw, 50vw"

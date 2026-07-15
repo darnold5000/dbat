@@ -34,7 +34,7 @@ const quickActions = [
   },
   {
     title: "Camps & Clinics",
-    description: "Seasonal camps and clinics with online registration through D-BAT Hub.",
+    description: "Seasonal camps and clinics with online registration through our booking system.",
     href: "/camps",
     cta: "See Camps",
     image: "/images/programs/camp-flyer-1.png",
@@ -102,13 +102,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
           <FadeIn>
             <SectionHeading
-              eyebrow="Why D-BAT Avon"
-              title="Built for serious reps in Hendricks County"
-              description="Verified details from the current Avon facility — presented as benefits, not fluff."
+              eyebrow="Why Batter Up"
+              title="Built for serious reps"
+              description="What sets Batter Up apart — presented as benefits, not fluff."
             />
           </FadeIn>
           <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 sm:gap-4">
-            {site.whyAvon.map((item, index) => (
+            {site.whyUs.map((item, index) => (
               <FadeIn key={item.title} delay={index * 0.04}>
                 <div className="h-full rounded-lg border border-border bg-background p-5 transition-colors hover:border-brand/40">
                   <h3 className="font-display text-xl text-white">{item.title}</h3>
@@ -127,7 +127,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Instructors"
             title="Parents pick the coach"
-            description="Browse by sport, see booking status, and book through D-BAT Hub."
+            description="Browse by sport, see booking status, and book through our booking system."
           />
           <div className="flex flex-wrap gap-3">
             <Link href="/coach-finder" className={cn(buttonVariants())}>
@@ -175,7 +175,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Camps & Clinics"
             title="Upcoming offerings"
-            description="Flyers and registration links from the current site. Confirm details in D-BAT Hub."
+            description="Flyers and registration links from the current site. Confirm details in our booking system."
           />
           <Link href="/camps" className={cn(buttonVariants({ variant: "secondary" }))}>
             View All Camps
@@ -193,7 +193,7 @@ export default function HomePage() {
           <div className="relative min-h-72 overflow-hidden rounded-lg sm:min-h-80">
             <Image
               src="/images/facility/avon-facility-2.jpg"
-              alt="D-BAT Avon indoor facility"
+              alt="Batter Up indoor facility"
               fill
               className="object-cover"
               sizes="(max-width:1024px) 100vw, 50vw"
@@ -218,7 +218,7 @@ export default function HomePage() {
           <div className="relative min-h-64 sm:min-h-72">
             <Image
               src="/images/programs/birthday-parties.jpg"
-              alt="Birthday party at D-BAT Avon"
+              alt="Birthday party at Batter Up"
               fill
               className="object-cover"
               sizes="(max-width:1024px) 100vw, 50vw"
@@ -232,7 +232,7 @@ export default function HomePage() {
               Party options for every budget
             </h2>
             <p className="mt-4 text-muted">
-              From DIY to all-inclusive experiences — request a date and the Avon
+              From DIY to all-inclusive experiences — request a date and the
               team will follow up about availability.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">

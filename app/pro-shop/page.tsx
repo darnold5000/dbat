@@ -10,7 +10,7 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Pro Shop",
   description:
-    "Browse bats, gloves, apparel, and accessories at the D-BAT Avon pro shop. Members receive merchandise discounts.",
+    "Browse bats, gloves, apparel, and accessories at the Batter Up pro shop. Members receive merchandise discounts.",
   path: "/pro-shop",
 });
 
@@ -32,23 +32,23 @@ export default function ProShopPage() {
       <PageHero
         eyebrow="Pro Shop"
         title="Gear for the next session"
-        description="Stock up on bats, gloves, apparel, and accessories at the Avon pro shop. Members save on merchandise — Gold 10% off, Platinum 15% off."
+        description="Stock up on bats, gloves, apparel, and accessories at the our pro shop. Members save on merchandise — Gold 10% off, Platinum 15% off."
         image="/images/facility/pro-shop-1.jpeg"
-        imageAlt="D-BAT Avon pro shop"
+        imageAlt="Batter Up pro shop"
         actions={<PrimaryCTA href="/contact">Ask About Gear</PrimaryCTA>}
       />
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <Breadcrumbs items={[{ label: "Pro Shop" }]} />
         <SectionHeading
           title="In-facility shopping"
-          description="Visit the Avon location to browse current inventory. Online ordering is not part of this redesign concept."
+          description="Visit the our location to browse current inventory. Online ordering is not part of this redesign concept."
         />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {photos.map((src) => (
             <div key={src} className="relative aspect-square overflow-hidden rounded-lg">
               <Image
                 src={src}
-                alt="Pro shop merchandise at D-BAT Avon"
+                alt="Pro shop merchandise at Batter Up"
                 fill
                 className="object-cover"
                 sizes="(max-width:768px) 100vw, 33vw"

@@ -13,7 +13,7 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Pricing",
   description:
-    "Compare lesson and cage rental pricing for Platinum, Gold, and non-members at D-BAT Avon.",
+    "Compare lesson and cage rental pricing for Platinum, Gold, and non-members at Batter Up.",
   path: "/pricing",
 });
 

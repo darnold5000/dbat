@@ -69,7 +69,7 @@ export function BookingLink({
               Continue to Booking
             </h2>
             <p className="mt-3 text-sm text-muted">
-              You’re continuing to D-BAT’s secure booking system. This redesign
+              You’re continuing to Batter Up’s secure booking system. This redesign
               concept does not process bookings itself.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">

@@ -5,7 +5,7 @@ import { analyticsEvents } from "@/lib/analytics";
 
 export function ConversionSection({
   title = "Ready for More Reps?",
-  description = "Book a lesson, rent a cage, or call D-BAT Avon to get started.",
+  description = "Book a lesson, rent a cage, or call Batter Up to get started.",
 }: {
   title?: string;
   description?: string;
@@ -38,7 +38,7 @@ export function ConversionSection({
             variant="outline"
             eventName={analyticsEvents.phone}
           >
-            Call D-BAT Avon
+            Call Batter Up
           </BookingLink>
         </div>
       </div>

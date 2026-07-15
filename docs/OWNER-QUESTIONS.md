@@ -4,9 +4,9 @@ Items that need owner confirmation before production launch.
 
 ## Branding & legal
 
-- [ ] Confirm approval to use D-BAT brand assets, logo, and Avon facility photos in a public redesign
+- [ ] Confirm approval to use Batter Up brand assets, logo, and our facility photos in a public redesign
 - [ ] Confirm exact brand red / color values for production
-- [ ] Confirm privacy policy should be Avon-specific (source template references D-BAT East Dallas / Texas)
+- [ ] Confirm privacy policy should be Avon-specific (source template references Batter Up East Dallas / Texas)
 - [ ] Confirm franchise attribution wording for footer
 
 ## Staff

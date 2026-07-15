@@ -11,9 +11,9 @@ import { StructuredData } from "@/components/seo/StructuredData";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = createMetadata({
-  title: "Softball Training in Avon, IN",
+  title: "Softball Training",
   description:
-    "Private softball lessons, indoor cages, and clinics at D-BAT Avon in Hendricks County.",
+    "Private softball lessons, indoor cages, and clinics at Batter Up.",
   path: "/softball-training",
 });
 
@@ -30,10 +30,10 @@ export default function SoftballTrainingPage() {
       />
       <PageHero
         eyebrow="Softball"
-        title="Softball training in Avon"
+        title="Softball training"
         description="Private lessons, machine work for slow-pitch and fast-pitch, cage rentals, and clinics for softball athletes."
         image="/images/facility/avon-facility-2.jpg"
-        imageAlt="Softball training at D-BAT Avon"
+        imageAlt="Softball training at Batter Up"
         actions={
           <>
             <BookingLink

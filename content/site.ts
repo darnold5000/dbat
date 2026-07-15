@@ -3,14 +3,14 @@ import { siteConfig } from "@/config/site";
 export const site = {
   ...siteConfig,
   hero: {
-    eyebrow: "Baseball & Softball Training in Avon, Indiana",
+    eyebrow: "Baseball & Softball Training",
     headline: "Train With Purpose. Play With Confidence.",
     supporting:
       "Private instruction, indoor cages, camps, clinics, memberships, and year-round development for baseball and softball athletes.",
     image: "/images/facility/avon-facility-1.jpg",
-    imageAlt: "Indoor training facility at D-BAT Avon",
+    imageAlt: "Indoor training facility at Batter Up",
   },
-  whyAvon: [
+  whyUs: [
     {
       title: "Indoor & climate controlled",
       description:

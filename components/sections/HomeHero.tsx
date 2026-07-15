@@ -16,7 +16,7 @@ const HERO_VIDEO =
 const HERO_POSTER = "/images/brand/hero-poster.jpg";
 
 const trustItems = [
-  { icon: MapPin, label: "Avon, Indiana" },
+  { icon: MapPin, label: "Riverside" },
   { icon: Thermometer, label: "Indoor & climate controlled" },
   { icon: Users, label: "Baseball and softball" },
   { icon: DoorOpen, label: "Walk-ins welcome" },
@@ -51,7 +51,7 @@ export function HomeHero() {
       <div className="absolute inset-0">
         <Image
           src={HERO_POSTER}
-          alt="Athletes training at D-BAT Avon"
+          alt="Athletes training at Batter Up"
           fill
           priority
           className={cn(
@@ -93,7 +93,7 @@ export function HomeHero() {
         >
           <p className="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-brand">
             <Play className="size-3.5 fill-current" aria-hidden />
-            Baseball & Softball Training in Avon, Indiana
+            Baseball & Softball Training
           </p>
           <h1 className="font-display text-[clamp(2.75rem,10vw,5.5rem)] leading-[0.92] text-white [text-shadow:0_2px_24px_rgba(0,0,0,0.45)]">
             Your Kid&apos;s Next
@@ -104,7 +104,7 @@ export function HomeHero() {
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 md:text-lg [text-shadow:0_1px_12px_rgba(0,0,0,0.4)]">
             Private lessons. Real balls in the cages. Camps, memberships, and
             year-round development — indoors, climate-controlled, built for
-            baseball and softball athletes in Hendricks County.
+            baseball and softball athletes.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <BookingLink

@@ -29,7 +29,7 @@ export async function generateMetadata({
   if (!instructor) return {};
   return createMetadata({
     title: `${instructor.name} — ${instructor.sport} instructor`,
-    description: `Book lessons with ${instructor.name} at D-BAT Avon.`,
+    description: `Book lessons with ${instructor.name} at Batter Up.`,
     path: `/instructors/${instructor.slug}`,
     image: instructor.image,
   });

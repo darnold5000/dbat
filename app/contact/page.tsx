@@ -17,7 +17,7 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Contact",
   description:
-    "Contact D-BAT Avon for general inquiries. Call for lesson or cage cancellations. Manage memberships through the membership portal.",
+    "Contact Batter Up for general inquiries. Call for lesson or cage cancellations. Manage memberships through the membership portal.",
   path: "/contact",
 });
 
@@ -30,7 +30,7 @@ export default function ContactPage() {
       <StructuredData data={faqJsonLd(contactFaqs)} />
       <PageHero
         eyebrow="Contact"
-        title="Talk with D-BAT Avon"
+        title="Talk with Batter Up"
         description="General inquiries welcome. Membership changes and lesson/cage cancellations have specific processes — see notices below."
         compact
       />

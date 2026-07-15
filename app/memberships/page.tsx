@@ -15,7 +15,7 @@ import { breadcrumbJsonLd, faqJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Memberships",
   description:
-    "Compare Gold and Platinum memberships at D-BAT Avon — machine tokens, lesson discounts, and more.",
+    "Compare Gold and Platinum memberships at Batter Up — machine tokens, lesson discounts, and more.",
   path: "/memberships",
 });
 
@@ -31,7 +31,7 @@ export default function MembershipsPage() {
         title="Train more. Save more."
         description={memberships.intro}
         image="/images/facility/avon-facility-1.jpg"
-        imageAlt="D-BAT Avon facility"
+        imageAlt="Batter Up facility"
         actions={
           <>
             <BookingLink

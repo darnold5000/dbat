@@ -212,7 +212,7 @@ export function CoachFinder() {
             Signal Works · Coach Finder
           </p>
           <h2 className="mt-1 font-display text-2xl text-white sm:text-3xl">
-            Match your athlete to an Avon instructor
+            Match your athlete to an instructor
           </h2>
           <p className="mt-2 text-sm text-muted">
             Recommendations use verified roster data (sport, booking status,
@@ -301,7 +301,7 @@ export function CoachFinder() {
 
           {results.length === 0 ? (
             <p className="rounded-md border border-border bg-background p-6 text-sm text-muted">
-              No strong matches yet. Browse all instructors or call D-BAT Avon
+              No strong matches yet. Browse all instructors or call Batter Up
               for a recommendation.
             </p>
           ) : (

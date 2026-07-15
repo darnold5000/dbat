@@ -48,7 +48,7 @@ export function BirthdayPartyInquiryForm() {
     >
       <p className="rounded-md border border-border bg-surface-elevated px-3 py-2 text-xs text-muted">
         Demo inquiry form — submitting does not reserve a party date. Availability
-        must be confirmed with D-BAT Avon.
+        must be confirmed with Batter Up.
       </p>
       <input
         type="text"

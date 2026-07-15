@@ -16,7 +16,7 @@ import { siteConfig } from "@/config/site";
 export const metadata = createMetadata({
   title: "Batting Cages",
   description:
-    "Pitching-machine cages with real baseballs and softballs, plus reservable cage rentals at D-BAT Avon.",
+    "Pitching-machine cages with real baseballs and softballs, plus reservable cage rentals at Batter Up.",
   path: "/batting-cages",
 });
 
@@ -32,7 +32,7 @@ export default function BattingCagesPage() {
         title="Machine lanes and cage rentals"
         description="Use pitching machines for authentic swings, or reserve a rental cage for individual or team practice."
         image="/images/facility/avon-facility-3.jpg"
-        imageAlt="Batting cages at D-BAT Avon"
+        imageAlt="Batting cages at Batter Up"
         actions={
           <>
             <BookingLink

@@ -1,22 +1,22 @@
 {
   "capturedAt": "2026-07-11T18:45:41.495166+00:00",
-  "sourceSite": "https://www.dbatavon.com",
+  "sourceSite": "https://www.batterup.example",
   "images": [
     {
-      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/D-BAT+Logo-1920w.png",
-      "localPath": "/images/brand/dbat-logo.png",
+      "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/Batter Up+Logo-1920w.png",
+      "localPath": "/images/brand/batter-up-logo.png",
       "originalPage": "/",
       "intendedUse": "logo",
-      "alt": "D-BAT Avon logo",
+      "alt": "Batter Up logo",
       "locality": "brand",
       "bytes": 122983
     },
     {
-      "sourceUrl": "https://irp.cdn-website.com/f623d4b7/dms3rep/multi/D-BAT+Logo.png",
+      "sourceUrl": "https://irp.cdn-website.com/f623d4b7/dms3rep/multi/Batter Up+Logo.png",
       "localPath": "/images/brand/dbat-logo-alt.png",
       "originalPage": "/",
       "intendedUse": "logo-alt",
-      "alt": "D-BAT logo",
+      "alt": "Batter Up logo",
       "locality": "brand",
       "bytes": 122983
     },
@@ -25,7 +25,7 @@
       "localPath": "/images/facility/avon-facility-1.jpg",
       "originalPage": "/memberships",
       "intendedUse": "hero/facility",
-      "alt": "D-BAT Avon indoor training facility",
+      "alt": "Batter Up indoor training facility",
       "locality": "local",
       "bytes": 110829
     },
@@ -34,7 +34,7 @@
       "localPath": "/images/facility/avon-facility-2.jpg",
       "originalPage": "/camps",
       "intendedUse": "facility",
-      "alt": "D-BAT Avon facility interior",
+      "alt": "Batter Up facility interior",
       "locality": "local",
       "bytes": 682476
     },
@@ -43,7 +43,7 @@
       "localPath": "/images/facility/avon-facility-3.jpg",
       "originalPage": "/camps",
       "intendedUse": "facility",
-      "alt": "D-BAT Avon batting cages",
+      "alt": "Batter Up batting cages",
       "locality": "local",
       "bytes": 546456
     },
@@ -52,7 +52,7 @@
       "localPath": "/images/facility/avon-placeholder-a.png",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
-      "alt": "D-BAT Avon facility photo",
+      "alt": "Batter Up facility photo",
       "locality": "local",
       "bytes": 244097
     },
@@ -61,7 +61,7 @@
       "localPath": "/images/facility/avon-placeholder-b.png",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
-      "alt": "D-BAT Avon facility photo",
+      "alt": "Batter Up facility photo",
       "locality": "local",
       "bytes": 272802
     },
@@ -70,7 +70,7 @@
       "localPath": "/images/facility/avon-placeholder-c.png",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
-      "alt": "D-BAT Avon facility photo",
+      "alt": "Batter Up facility photo",
       "locality": "local",
       "bytes": 322453
     },
@@ -79,7 +79,7 @@
       "localPath": "/images/facility/avon-facility-4.png",
       "originalPage": "/camps",
       "intendedUse": "facility",
-      "alt": "D-BAT Avon training space",
+      "alt": "Batter Up training space",
       "locality": "local",
       "bytes": 1354459
     },
@@ -169,7 +169,7 @@
       "localPath": "/images/programs/birthday-parties.jpg",
       "originalPage": "/birthday-parties",
       "intendedUse": "birthday",
-      "alt": "Birthday party at D-BAT Avon",
+      "alt": "Birthday party at Batter Up",
       "locality": "local",
       "bytes": 131829
     },
@@ -187,7 +187,7 @@
       "localPath": "/images/programs/cade-and-kyle.jpg",
       "originalPage": "/about-us",
       "intendedUse": "about",
-      "alt": "D-BAT founders Cade and Kyle Griffis",
+      "alt": "Batter Up founders Cade and Kyle Griffis",
       "locality": "generic",
       "bytes": 105922
     },
@@ -196,7 +196,7 @@
       "localPath": "/images/facility/pro-shop-1.jpeg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
-      "alt": "D-BAT Avon pro shop merchandise",
+      "alt": "Batter Up pro shop merchandise",
       "locality": "local",
       "bytes": 548431
     },

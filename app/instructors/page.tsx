@@ -8,7 +8,7 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 export const metadata = createMetadata({
   title: "Instructors",
   description:
-    "Meet baseball and softball instructors at D-BAT Avon and book private lessons online.",
+    "Meet baseball and softball instructors at Batter Up and book private lessons online.",
   path: "/instructors",
 });
 
@@ -21,7 +21,7 @@ export default function InstructorsPage() {
       <PageHero
         eyebrow="Coaching staff"
         title="Find your instructor"
-        description="Filter by baseball or softball, search by name, and book through D-BAT Hub."
+        description="Filter by baseball or softball, search by name, and book through our booking system."
         compact
       />
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">

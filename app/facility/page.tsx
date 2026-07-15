@@ -16,7 +16,7 @@ import { FadeIn } from "@/components/ui/FadeIn";
 export const metadata = createMetadata({
   title: "Facility Tour",
   description:
-    "Virtual tour of D-BAT Avon — indoor training, cages, machines, pro shop, birthday space, and directions in Avon, Indiana.",
+    "Virtual tour of Batter Up — indoor training, cages, machines, pro shop, birthday space, and directions year-round.",
   path: "/facility",
 });
 
@@ -49,7 +49,7 @@ const tourStops = [
     id: "training",
     title: "Indoor Training Floor",
     description:
-      "Climate-controlled indoor environment so Avon athletes can train year-round regardless of Indiana weather.",
+      "Climate-controlled indoor environment so athletes can train year-round regardless of Indiana weather.",
     image: "/images/facility/avon-facility-1.jpg",
     points: [
       "Year-round indoor access",
@@ -102,10 +102,10 @@ export default function FacilityPage() {
       />
       <PageHero
         eyebrow="Virtual tour"
-        title="Step inside D-BAT Avon"
-        description="Indoor cages. Real-ball machines. Pro shop. Birthday space. Explore the academy before you visit — then get directions to Beechwood Centre."
+        title="Step inside Batter Up"
+        description="Indoor cages. Real-ball machines. Pro shop. Birthday space. Explore the academy before you visit — then get directions."
         image="/images/facility/avon-facility-2.jpg"
-        imageAlt="D-BAT Avon indoor facility"
+        imageAlt="Batter Up indoor facility"
         actions={
           <>
             <PrimaryCTA href="#tour">Start the Tour</PrimaryCTA>
@@ -201,7 +201,7 @@ export default function FacilityPage() {
         <section className="mt-20">
           <SectionHeading
             title="Photo gallery"
-            description="Local Avon imagery from the current facility and pro shop."
+            description="Facility and pro shop imagery from the Batter Up academy."
             className="mb-8"
           />
           <div className="grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-4">
@@ -212,7 +212,7 @@ export default function FacilityPage() {
               >
                 <Image
                   src={src}
-                  alt="D-BAT Avon facility"
+                  alt="Batter Up facility"
                   fill
                   className="object-cover transition-transform duration-500 hover:scale-105"
                   sizes="(max-width:768px) 50vw, 25vw"
@@ -231,7 +231,7 @@ export default function FacilityPage() {
           <div className="space-y-6">
             <SectionHeading
               title="Find us"
-              description="7508 Beechwood Centre, Unit 700 — Avon, IN 46123."
+              description="4200 Diamond Way, Suite 100 — Riverside, IN 46055."
             />
             <MapCard />
           </div>

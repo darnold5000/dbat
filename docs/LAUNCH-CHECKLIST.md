@@ -28,4 +28,4 @@
 
 - Deploy preview to a Signal Works demo subdomain
 - Keep password protection enabled when available
-- Do not point `dbatavon.com` until authorized
+- Do not point `batterup.example` until authorized

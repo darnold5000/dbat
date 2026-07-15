@@ -55,7 +55,7 @@ export async function POST(request: Request) {
       await resend.emails.send({
         from: env.CONTACT_FROM_EMAIL!,
         to: env.CONTACT_TO_EMAIL!,
-        subject: `[D-BAT Avon Contact] ${data.subject}`,
+        subject: `[Batter Up Contact] ${data.subject}`,
         text: [
           `Name: ${data.firstName} ${data.lastName}`,
           `Email: ${data.email}`,
@@ -67,7 +67,7 @@ export async function POST(request: Request) {
       });
       return NextResponse.json({
         message:
-          "Thanks — your message has been received. A D-BAT Avon team member will get back to you.",
+          "Thanks — your message has been received. A Batter Up team member will get back to you.",
       });
     } catch (error) {
       console.error("[contact-form] email failed", error instanceof Error ? error.name : "error");
@@ -80,7 +80,7 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     message:
-      "Thanks — your message has been received (demo mode). A D-BAT Avon team member will get back to you as soon as possible.",
+      "Thanks — your message has been received (demo mode). A Batter Up team member will get back to you as soon as possible.",
     demo: true,
   });
 }

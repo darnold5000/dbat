@@ -7,12 +7,12 @@ export const lessonsFaqs: FAQ[] = [
   {
     question: "Who are lessons for?",
     answer:
-      "D-BAT Avon instructors work with baseball and softball players at every level, with the ballplayer as the focus and parents involved during the lesson.",
+      "Batter Up instructors work with baseball and softball players at every level, with the ballplayer as the focus and parents involved during the lesson.",
   },
   {
     question: "How do I book a lesson?",
     answer:
-      "Choose an instructor from our staff directory and use their booking link, or use the general Book a Lesson button to open D-BAT’s secure booking system.",
+      "Choose an instructor from our staff directory and use their booking link, or use the general Book a Lesson button to open Batter Up’s secure booking system.",
   },
   {
     question: "Can instructors attend games?",
@@ -48,7 +48,7 @@ export const birthdayFaqs: FAQ[] = [
   {
     question: "How do I request a birthday party?",
     answer:
-      "Submit the party inquiry form with your preferred date, time, and guest details. A D-BAT Avon team member will contact you to discuss availability — submitting a request does not reserve a date.",
+      "Submit the party inquiry form with your preferred date, time, and guest details. A Batter Up team member will contact you to discuss availability — submitting a request does not reserve a date.",
   },
   {
     question: "What party options are available?",
@@ -66,7 +66,7 @@ export const membershipFaqs: FAQ[] = [
   {
     question: "How do I change or manage my membership?",
     answer:
-      "Use Manage Membership to submit upgrade, downgrade, suspend, or terminate requests through the official D-BAT Avon membership management form. General contact forms cannot process membership changes.",
+      "Use Manage Membership to submit upgrade, downgrade, suspend, or terminate requests through the official Batter Up membership management form. General contact forms cannot process membership changes.",
   },
 ];
 

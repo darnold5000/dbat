@@ -11,16 +11,19 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-surface">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-4">
-          <Image
-            src="/images/brand/dbat-logo.png"
-            alt="D-BAT Avon"
-            width={150}
-            height={52}
-            className="h-12 w-auto"
-          />
+          <div className="flex items-center gap-3">
+            <Image
+              src="/images/brand/batter-up-logo.png"
+              alt="Batter Up"
+              width={48}
+              height={48}
+              className="h-12 w-12 rounded-lg object-cover"
+            />
+            <span className="font-display text-xl text-white">Batter Up</span>
+          </div>
           <p className="text-sm leading-relaxed text-muted">
-            Indoor baseball and softball training in Avon, Indiana — private
-            lessons, cages, camps, memberships, and more.
+            Indoor baseball and softball training — private lessons, cages,
+            camps, memberships, and more.
           </p>
           <SocialLinks />
         </div>
@@ -87,13 +90,9 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
-              <a
-                href={siteConfig.franchise.corporate}
-                className="text-muted hover:text-white"
-                rel="noopener noreferrer"
-              >
-                Own a D-BAT
-              </a>
+              <Link href="/about" className="text-muted hover:text-white">
+                About Batter Up
+              </Link>
             </li>
           </ul>
         </div>
@@ -101,9 +100,7 @@ export function SiteFooter() {
 
       <div className="border-t border-border px-4 py-6 text-center text-xs text-muted sm:px-6">
         <p>
-          © {new Date().getFullYear()} {siteConfig.name}. D-BAT is a registered
-          trademark of its respective owner. This site is an independent local
-          academy page.
+          © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         </p>
         {siteConfig.demo.isDemo ? (
           <p className="mt-2">{siteConfig.demo.footerNote}</p>

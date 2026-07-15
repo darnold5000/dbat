@@ -11,9 +11,9 @@ import { StructuredData } from "@/components/seo/StructuredData";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = createMetadata({
-  title: "Baseball Training in Avon, IN",
+  title: "Baseball Training",
   description:
-    "Private baseball lessons, indoor cages, and camps at D-BAT Avon in Hendricks County.",
+    "Private baseball lessons, indoor cages, and camps at Batter Up.",
   path: "/baseball-training",
 });
 
@@ -30,10 +30,10 @@ export default function BaseballTrainingPage() {
       />
       <PageHero
         eyebrow="Baseball"
-        title="Baseball training in Avon"
-        description="Private lessons, machine work, cage rentals, and camps for baseball athletes in Avon and Hendricks County."
+        title="Baseball training"
+        description="Private lessons, machine work, cage rentals, and camps for baseball athletes."
         image="/images/facility/avon-facility-3.jpg"
-        imageAlt="Baseball training at D-BAT Avon"
+        imageAlt="Baseball training at Batter Up"
         actions={
           <>
             <BookingLink

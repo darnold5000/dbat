@@ -15,7 +15,7 @@ export function createMetadata({
   image?: string;
 }): Metadata {
   const url = `${siteConfig.url}${path}`;
-  const fullTitle = title.includes("D-BAT")
+  const fullTitle = title.includes("Batter Up")
     ? title
     : `${title} | ${siteConfig.name}`;
 

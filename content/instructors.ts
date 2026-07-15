@@ -20,125 +20,97 @@ export type Instructor = {
 };
 
 /**
- * Rich profile fields (specialties, years, philosophy, drills) are left empty
- * until the owner supplies verified copy. Cards still surface sport + booking
- * status so parents can choose confidently without invented credentials.
+ * Demo coach roster — fictional profiles for the Batter Up redesign concept.
  */
 export const instructors: Instructor[] = [
   {
-    slug: "robb-dure",
-    name: "Robb Dure",
-    sport: "baseball",
-    image: "/images/instructors/robb-dure.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=493001",
-    availability: "accepting",
-    isFeatured: true,
-  },
-  {
-    slug: "bryan-nutt",
-    name: "Bryan Nutt",
-    sport: "baseball",
-    image: "/images/instructors/bryan-nutt.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=862195",
-    availability: "accepting",
-    isFeatured: true,
-  },
-  {
-    slug: "levi-raspberry",
-    name: "Levi Raspberry",
+    slug: "alex-rivera",
+    name: "Alex Rivera",
     sport: "baseball",
     image: "/images/facility/avon-placeholder-a.png",
     bookingUrl: bookingLinks.lessons,
-    availability: "ask",
+    specialties: ["Hitting", "Infield"],
+    yearsCoaching: 8,
+    availability: "accepting",
+    isFeatured: true,
   },
   {
-    slug: "brett-poindexter",
-    name: "Brett Poindexter",
+    slug: "jordan-lee",
+    name: "Jordan Lee",
     sport: "baseball",
     image: "/images/facility/avon-placeholder-b.png",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1703369",
-    availability: "accepting",
-  },
-  {
-    slug: "george-stapp",
-    name: "George Stapp",
-    sport: "softball",
-    image: "/images/instructors/george-stapp.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=505059",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Pitching", "Strength"],
+    yearsCoaching: 12,
     availability: "accepting",
     isFeatured: true,
   },
   {
-    slug: "sue-anderson",
-    name: "Sue Anderson",
+    slug: "sam-ortiz",
+    name: "Sam Ortiz",
+    sport: "baseball",
+    image: "/images/facility/avon-placeholder-c.png",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Catching", "Fundamentals"],
+    yearsCoaching: 6,
+    availability: "limited",
+  },
+  {
+    slug: "morgan-blake",
+    name: "Morgan Blake",
+    sport: "baseball",
+    image: "/images/facility/avon-placeholder-a.png",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Outfield", "Base running"],
+    yearsCoaching: 5,
+    availability: "accepting",
+  },
+  {
+    slug: "casey-morgan",
+    name: "Casey Morgan",
     sport: "softball",
-    image: "/images/instructors/sue-anderson.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1071357",
+    image: "/images/facility/avon-placeholder-b.png",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Hitting", "Slapping"],
+    yearsCoaching: 10,
     availability: "accepting",
     isFeatured: true,
   },
   {
-    slug: "jeremy-vivace",
-    name: "Jeremy Vivace",
-    sport: "softball",
-    image: "/images/instructors/jeremy-vivace.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1456858",
-    availability: "accepting",
-  },
-  {
-    slug: "rebekah-cruz",
-    name: "Rebekah Cruz",
-    sport: "softball",
-    image: "/images/instructors/rebekah-cruz.png",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1117147",
-    availability: "accepting",
-  },
-  {
-    slug: "brandon-blackwell",
-    name: "Brandon Blackwell",
-    sport: "softball",
-    image: "/images/instructors/brandon-blackwell.png",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1420682",
-    availability: "accepting",
-  },
-  {
-    slug: "anna-allen",
-    name: "Anna Allen",
-    sport: "softball",
-    image: "/images/instructors/anna-allen.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2012438",
-    availability: "accepting",
-  },
-  {
-    slug: "ella-cochenour",
-    name: "Ella Cochenour",
-    sport: "softball",
-    image: "/images/instructors/ella-cochenour.jpg",
-    bookingUrl:
-      "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=2040764",
-    availability: "accepting",
-  },
-  {
-    slug: "peyton-norman",
-    name: "Peyton Norman",
+    slug: "taylor-brooks",
+    name: "Taylor Brooks",
     sport: "softball",
     image: "/images/facility/avon-placeholder-c.png",
     bookingUrl: bookingLinks.lessons,
+    specialties: ["Pitching", "Mechanics"],
+    yearsCoaching: 9,
+    availability: "accepting",
+    isFeatured: true,
+  },
+  {
+    slug: "jamie-nguyen",
+    name: "Jamie Nguyen",
+    sport: "softball",
+    image: "/images/facility/avon-placeholder-a.png",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Infield", "Defense"],
+    yearsCoaching: 7,
+    availability: "accepting",
+  },
+  {
+    slug: "riley-park",
+    name: "Riley Park",
+    sport: "softball",
+    image: "/images/facility/avon-placeholder-b.png",
+    bookingUrl: bookingLinks.lessons,
+    specialties: ["Catching", "Game IQ"],
+    yearsCoaching: 4,
     availability: "ask",
   },
 ];
 
 export const instructorFallbackBio =
-  "Contact D-BAT Avon to learn more about this instructor’s lesson focus and availability.";
+  "Contact Batter Up to learn more about this instructor’s lesson focus and availability.";
 
 export function getInstructorBySlug(slug: string) {
   return instructors.find((i) => i.slug === slug);

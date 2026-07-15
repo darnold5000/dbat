@@ -1,8 +1,8 @@
 {
-  "sourceSite": "https://www.dbatavon.com",
+  "sourceSite": "https://www.batterup.example",
   "capturedAt": "2026-07-11T18:45:00.000Z",
   "business": {
-    "name": "D-BAT Avon",
+    "name": "Batter Up",
     "phone": "463-266-3228",
     "phoneTel": "tel:+14632663228",
     "email": null,
@@ -28,10 +28,10 @@
     { "label": "Camps & Clinics", "href": "/camps" },
     { "label": "Birthday Parties", "href": "/birthday-parties" },
     { "label": "Pro Shop", "href": "/pro-shop" },
-    { "label": "About D-BAT", "href": "/about-us" },
+    { "label": "About Batter Up", "href": "/about-us" },
     { "label": "Contact", "href": "/contact" },
-    { "label": "Work at D-BAT", "href": "/work-at-d-batb400e4a7" },
-    { "label": "Own a D-BAT", "href": "https://www.dbatfranchises.com/" },
+    { "label": "Work at Batter Up", "href": "/work-at-d-batb400e4a7" },
+    { "label": "Join Batter Up", "href": "https://www.dbatfranchises.com/" },
     { "label": "Privacy Policy", "href": "/privacy-policy" },
     { "label": "Manage Membership", "href": "/manage-membership" }
   ],
@@ -40,7 +40,7 @@
     "cage": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=843",
     "camp": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=844&eventTypeFilter%5B%5D=846",
     "membershipSignup": "https://app.dbathub.com/customers/144-d-bat-avon/memberships",
-    "membershipManagement": "https://www.dbatavon.com/manage-membership"
+    "membershipManagement": "https://www.batterup.example/manage-membership"
   },
   "socialLinks": {
     "facebook": "https://facebook.com/avonhouseofball",
@@ -48,7 +48,7 @@
   },
   "franchise": {
     "corporate": "https://www.dbatfranchises.com/",
-    "jobs": "https://www.dbatavon.com/work-at-d-batb400e4a7"
+    "jobs": "https://www.batterup.example/work-at-d-batb400e4a7"
   },
   "instructors": [
     {
@@ -169,7 +169,7 @@
   ],
   "pricing": {
     "lastVerified": "2026-07-11",
-    "validityNote": "Memberships are valid at all D-BAT Locations WORLDWIDE and are for INDIVIDUAL use only.",
+    "validityNote": "Memberships are valid at all Batter Up locations WORLDWIDE and are for INDIVIDUAL use only.",
     "rows": [
       { "item": "1/2 Hr Lesson", "platinum": 31.5, "gold": 36, "nonMember": 45 },
       { "item": "1 Hr Lesson", "platinum": 59.5, "gold": 68, "nonMember": 85 },
@@ -241,19 +241,19 @@
     },
     {
       "page": "/privacy-policy",
-      "issue": "Privacy policy appears to be a franchise template referencing D-BAT East Dallas / Texas — needs Avon-specific owner review"
+      "issue": "Privacy policy appears to be a franchise template referencing Batter Up East Dallas / Texas — needs Avon-specific owner review"
     }
   ],
   "pages": [
-    { "path": "/", "title": "Baseball & Softball Lessons | D-BAT Avon | Avon, IN", "status": "crawled" },
-    { "path": "/menu", "title": "Baseball & Softball Pricing | D-BAT Avon | Avon", "status": "crawled", "mapsTo": "/pricing" },
-    { "path": "/memberships", "title": "Baseball & Softball Memberships | D-BAT Avon | Avon", "status": "crawled" },
+    { "path": "/", "title": "Baseball & Softball Lessons | Batter Up | Avon, IN", "status": "crawled" },
+    { "path": "/menu", "title": "Baseball & Softball Pricing | Batter Up | Avon", "status": "crawled", "mapsTo": "/pricing" },
+    { "path": "/memberships", "title": "Baseball & Softball Memberships | Batter Up | Avon", "status": "crawled" },
     { "path": "/batting-cages", "title": "Batting Cages", "status": "crawled" },
-    { "path": "/lessons", "title": "Baseball & Softball Lessons | D-BAT Avon | Avon", "status": "crawled" },
+    { "path": "/lessons", "title": "Baseball & Softball Lessons | Batter Up | Avon", "status": "crawled" },
     { "path": "/camps", "title": "Camps & Clinics", "status": "crawled" },
     { "path": "/birthday-parties", "title": "Birthday Parties", "status": "crawled" },
     { "path": "/pro-shop", "title": "Pro Shop", "status": "crawled" },
-    { "path": "/about-us", "title": "About D-BAT", "status": "crawled", "mapsTo": "/about" },
+    { "path": "/about-us", "title": "About Batter Up", "status": "crawled", "mapsTo": "/about" },
     { "path": "/contact", "title": "Contact", "status": "crawled" },
     { "path": "/privacy-policy", "title": "Privacy Policy", "status": "crawled", "mapsTo": "/privacy" },
     { "path": "/manage-membership", "title": "Manage Membership", "status": "crawled", "note": "On-site membership change form; preserved as outbound link for demo" }

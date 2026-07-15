@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export const metadata = createMetadata({
   title: "Training",
   description:
-    "Explore private lessons, batting cages, baseball training, softball training, and birthday parties at D-BAT Avon.",
+    "Explore private lessons, batting cages, baseball training, softball training, and birthday parties at Batter Up.",
   path: "/training",
 });
 
@@ -16,7 +16,7 @@ const links = [
   {
     title: "Private Lessons",
     href: "/lessons",
-    description: "Book baseball or softball instruction with Avon coaches.",
+    description: "Book baseball or softball instruction with our coaches.",
   },
   {
     title: "Batting Cages",

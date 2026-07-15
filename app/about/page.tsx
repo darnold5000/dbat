@@ -1,18 +1,18 @@
 import Image from "next/image";
+import Link from "next/link";
 import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/ui/PageHero";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { siteConfig } from "@/config/site";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { StructuredData } from "@/components/seo/StructuredData";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = createMetadata({
-  title: "About D-BAT Avon",
+  title: "About Batter Up",
   description:
-    "Learn about D-BAT’s founding story and the Avon, Indiana baseball and softball training academy.",
+    "Learn about Batter Up — indoor baseball and softball training built around player development.",
   path: "/about",
 });
 
@@ -25,37 +25,35 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="Premier indoor baseball & softball training"
-        description="D-BAT Avon is part of the D-BAT network of training academies — focused on quality instruction and a player-first environment in Avon, Indiana."
+        description="Batter Up is focused on quality instruction and a player-first environment — private lessons, cages, camps, and year-round development."
         compact
       />
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <Breadcrumbs items={[{ label: "About" }]} />
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="space-y-6 text-muted leading-relaxed">
-            <SectionHeading title="About D-BAT" />
+            <SectionHeading title="About Batter Up" />
             <p>
-              D-BAT was founded in 1998 by Cade and Kyle Griffis. Starting with
-              CEO Cade Griffis traveling to different cities giving private
-              lessons, Cade and Kyle realized they had an opportunity to provide
-              an indoor facility that matched the quality of players in the area.
-              Their first location opened in Addison, Texas.
+              Batter Up started with a simple idea: give athletes a place to
+              train with purpose, regardless of the weather. What began as
+              private lessons grew into a full indoor academy built for serious
+              reps and confident play.
             </p>
             <p>
-              In 2009 the D-BAT team began offering others the opportunity to own
-              a D-BAT Academy. The network has grown to over 145 locations, with
-              a mission to provide a quality teaching environment with
-              professional instruction for players at all levels.
+              Today Batter Up offers private baseball and softball instruction,
+              machine lanes with real balls, cage rentals, camps and clinics,
+              memberships, and a stocked pro shop — all under one roof.
             </p>
             <p>
-              D-BAT Academies feature well-lit, indoor climate-controlled
-              facilities, invite parents into the development process, and
-              include pro shops for equipment needs.
+              Parents are part of the process. Coaches focus on the player,
+              invite feedback from games, and help athletes build skills they
+              can trust when it counts.
             </p>
           </div>
           <div className="relative min-h-80 overflow-hidden rounded-lg">
             <Image
-              src="/images/programs/cade-and-kyle.jpg"
-              alt="D-BAT founders Cade and Kyle Griffis"
+              src="/images/facility/avon-facility-1.jpg"
+              alt="Athletes training at Batter Up"
               fill
               className="object-cover"
               sizes="(max-width:1024px) 100vw, 50vw"
@@ -66,23 +64,18 @@ export default function AboutPage() {
         <div className="mt-16 rounded-lg border border-border bg-surface p-8">
           <SectionHeading
             title="Want to join the team?"
-            description="Explore career opportunities across the D-BAT network."
+            description="Explore coaching and staff opportunities at Batter Up."
           />
           <div className="mt-6 flex flex-wrap gap-3">
-            <a
-              href={siteConfig.franchise.jobs}
-              className={cn(buttonVariants())}
-              rel="noopener noreferrer"
-            >
-              Explore Jobs at D-BAT
-            </a>
-            <a
-              href={siteConfig.franchise.corporate}
+            <Link href="/contact" className={cn(buttonVariants())}>
+              Contact Us
+            </Link>
+            <Link
+              href="/instructors"
               className={cn(buttonVariants({ variant: "secondary" }))}
-              rel="noopener noreferrer"
             >
-              Own a D-BAT
-            </a>
+              Meet the Coaches
+            </Link>
           </div>
         </div>
       </div>

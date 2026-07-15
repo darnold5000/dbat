@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata = createMetadata({
   title: "Privacy Policy",
-  description: "Privacy policy information for the D-BAT Avon website redesign concept.",
+  description: "Privacy policy information for the Batter Up website redesign concept.",
   path: "/privacy",
 });
 
@@ -22,12 +22,8 @@ export default function PrivacyPage() {
         <Breadcrumbs items={[{ label: "Privacy" }]} />
         <div className="space-y-6 text-sm leading-relaxed text-muted">
           <p>
-            {/* TODO: Owner approval needed for Avon-specific privacy policy. The
-                current live site uses a franchise template that references another
-                location. */}
-            The current public D-BAT Avon website publishes a privacy policy that
-            appears to be a franchise template. Before production launch, replace
-            this page with an owner-approved policy specific to {siteConfig.name}.
+            Before production launch, replace this page with an owner-approved
+            privacy policy specific to {siteConfig.name}.
           </p>
           <h2 className="font-display text-2xl text-white">Demo site notice</h2>
           <p>
@@ -44,34 +40,15 @@ export default function PrivacyPage() {
             your inquiry. Do not submit sensitive personal information through the
             demo forms.
           </p>
-          <h2 className="font-display text-2xl text-white">Booking systems</h2>
-          <p>
-            Lesson, cage, camp, and membership booking actions send you to D-BAT’s
-            external systems (including D-BAT Hub) or the official D-BAT Avon
-            membership management page. Those services have their own privacy
-            practices.
-          </p>
           <h2 className="font-display text-2xl text-white">Contact</h2>
           <p>
-            For privacy questions about the live academy, contact {siteConfig.name}{" "}
-            at{" "}
+            For privacy questions, contact {siteConfig.name} at{" "}
             <a href={siteConfig.phoneTel} className="text-white hover:text-brand">
               {siteConfig.phone}
             </a>{" "}
             or visit {siteConfig.address.street}, {siteConfig.address.unit},{" "}
             {siteConfig.address.city}, {siteConfig.address.state}{" "}
             {siteConfig.address.postalCode}.
-          </p>
-          <p>
-            You can also review the current live policy at{" "}
-            <a
-              href="https://www.dbatavon.com/privacy-policy"
-              className="text-white hover:text-brand"
-              rel="noopener noreferrer"
-            >
-              dbatavon.com/privacy-policy
-            </a>
-            .
           </p>
         </div>
       </div>
