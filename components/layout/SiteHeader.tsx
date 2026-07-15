@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { primaryNav } from "@/content/navigation";
 import { siteConfig } from "@/config/site";
@@ -26,14 +27,28 @@ export function AnnouncementBar() {
 }
 
 export function SiteHeader() {
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openSection, setOpenSection] = useState<string | null>(null);
+  const [openDesktop, setOpenDesktop] = useState<string | null>(null);
+
+  useEffect(() => {
+    setMobileOpen(false);
+    setOpenSection(null);
+    setOpenDesktop(null);
+  }, [pathname]);
+
+  const closeMenus = () => {
+    setMobileOpen(false);
+    setOpenSection(null);
+    setOpenDesktop(null);
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
       <AnnouncementBar />
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="flex items-center gap-3 shrink-0">
+        <Link href="/" className="flex items-center gap-3 shrink-0" onClick={closeMenus}>
           <Image
             src="/images/brand/batter-up-logo.png"
             alt="Batter Up"
@@ -50,21 +65,40 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Primary">
           {primaryNav.map((item) =>
             item.children ? (
-              <div key={item.label} className="relative group">
+              <div
+                key={item.label}
+                className="relative"
+                onMouseEnter={() => setOpenDesktop(item.label)}
+                onMouseLeave={() => setOpenDesktop(null)}
+              >
                 <button
                   type="button"
                   className="inline-flex min-h-11 items-center gap-1 px-3 text-sm text-muted hover:text-white"
                   aria-haspopup="true"
+                  aria-expanded={openDesktop === item.label}
+                  onClick={() =>
+                    setOpenDesktop((current) =>
+                      current === item.label ? null : item.label,
+                    )
+                  }
                 >
                   {item.label}
                   <ChevronDown className="size-3.5" aria-hidden />
                 </button>
-                <div className="invisible absolute left-0 top-full z-50 min-w-52 rounded-md border border-border bg-surface p-2 opacity-0 shadow-none transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                <div
+                  className={cn(
+                    "absolute left-0 top-full z-50 min-w-52 rounded-md border border-border bg-surface p-2 shadow-none transition",
+                    openDesktop === item.label
+                      ? "visible opacity-100"
+                      : "invisible opacity-0 pointer-events-none",
+                  )}
+                >
                   {item.children.map((child) => (
                     <Link
                       key={child.href}
                       href={child.href}
                       className="block rounded px-3 py-2 text-sm text-muted hover:bg-surface-elevated hover:text-white"
+                      onClick={closeMenus}
                     >
                       {child.label}
                     </Link>
@@ -76,6 +110,7 @@ export function SiteHeader() {
                 key={item.href}
                 href={item.href}
                 className="inline-flex min-h-11 items-center px-3 text-sm text-muted hover:text-white"
+                onClick={closeMenus}
               >
                 {item.label}
               </Link>
@@ -150,7 +185,7 @@ export function SiteHeader() {
                         key={child.href}
                         href={child.href}
                         className="block py-2.5 pl-4 text-sm text-muted"
-                        onClick={() => setMobileOpen(false)}
+                        onClick={closeMenus}
                       >
                         {child.label}
                       </Link>
@@ -162,7 +197,7 @@ export function SiteHeader() {
                 key={item.href}
                 href={item.href}
                 className="border-b border-border py-3 text-white"
-                onClick={() => setMobileOpen(false)}
+                onClick={closeMenus}
               >
                 {item.label}
               </Link>
@@ -172,7 +207,7 @@ export function SiteHeader() {
             <Link
               href="/coach-finder"
               className={cn(buttonVariants({ variant: "outline" }), "w-full")}
-              onClick={() => setMobileOpen(false)}
+              onClick={closeMenus}
             >
               AI Coach Finder
             </Link>
