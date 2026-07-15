@@ -23,28 +23,28 @@ const quickActions = [
     description: "Baseball and softball instruction with parents involved in the process.",
     href: "/lessons",
     cta: "Explore Lessons",
-    image: "/images/facility/hero-athlete.jpg",
+    image: "/images/facility/hitting.jpg",
   },
   {
     title: "Batting Cages",
     description: "Real baseballs and softballs in machine lanes, plus reservable cage rentals.",
     href: "/batting-cages",
     cta: "View Cages",
-    image: "/images/facility/avon-facility-3.jpg",
+    image: "/images/facility/cages.jpg",
   },
   {
     title: "Camps & Clinics",
     description: "Seasonal camps and clinics with online registration through our booking system.",
     href: "/camps",
     cta: "See Camps",
-    image: "/images/programs/camp-flyer-1.png",
+    image: "/images/programs/camps.jpg",
   },
   {
     title: "Find a Coach",
     description: "Answer a few questions and get instructor recommendations matched to your athlete.",
     href: "/coach-finder",
     cta: "Try Coach Finder",
-    image: "/images/instructors/robb-dure.jpg",
+    image: "/images/instructors/coach-1.jpg",
   },
 ];
 
@@ -192,7 +192,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-6xl gap-8 px-4 py-16 sm:px-6 md:py-20 lg:grid-cols-2">
           <div className="relative min-h-72 overflow-hidden rounded-lg sm:min-h-80">
             <Image
-              src="/images/facility/avon-facility-2.jpg"
+              src="/images/facility/interior.jpg"
               alt="Batter Up indoor facility"
               fill
               className="object-cover"
@@ -217,7 +217,7 @@ export default function HomePage() {
         <div className="grid overflow-hidden rounded-lg border border-border lg:grid-cols-2">
           <div className="relative min-h-64 sm:min-h-72">
             <Image
-              src="/images/programs/birthday-parties.jpg"
+              src="/images/programs/birthday.jpg"
               alt="Birthday party at Batter Up"
               fill
               className="object-cover"

@@ -3,12 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, Phone, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { primaryNav } from "@/content/navigation";
 import { siteConfig } from "@/config/site";
 import { bookingLinks } from "@/config/booking-links";
 import { BookingLink } from "@/components/booking/BookingLink";
-import { analyticsEvents, trackEvent } from "@/lib/analytics";
+import { analyticsEvents } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 
@@ -47,7 +47,7 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Primary">
           {primaryNav.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
@@ -84,14 +84,6 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
-          <a
-            href={siteConfig.phoneTel}
-            className="inline-flex min-h-11 items-center gap-2 px-2 text-sm text-muted hover:text-white"
-            onClick={() => trackEvent(analyticsEvents.phone)}
-          >
-            <Phone className="size-4" aria-hidden />
-            <span className="sr-only lg:not-sr-only">{siteConfig.phone}</span>
-          </a>
           <BookingLink
             href={bookingLinks.cages}
             variant="secondary"

@@ -32,7 +32,7 @@ export default function BaseballTrainingPage() {
         eyebrow="Baseball"
         title="Baseball training"
         description="Private lessons, machine work, cage rentals, and camps for baseball athletes."
-        image="/images/facility/avon-facility-3.jpg"
+        image="/images/facility/cages.jpg"
         imageAlt="Baseball training at Batter Up"
         actions={
           <>

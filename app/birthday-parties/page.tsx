@@ -14,7 +14,7 @@ export const metadata = createMetadata({
   description:
     "Request a birthday party at Batter Up. Party options range from DIY to all-inclusive.",
   path: "/birthday-parties",
-  image: "/images/programs/birthday-parties.jpg",
+  image: "/images/programs/birthday.jpg",
 });
 
 export default function BirthdayPartiesPage() {
@@ -30,7 +30,7 @@ export default function BirthdayPartiesPage() {
         eyebrow="Birthday Parties"
         title="Celebrate at the cages"
         description="Party options range from DIY to all-inclusive — find the right fit for your budget. Submitting a request does not guarantee availability."
-        image="/images/programs/birthday-parties.jpg"
+        image="/images/programs/birthday.jpg"
         imageAlt="Birthday party at Batter Up"
       />
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
@@ -43,7 +43,7 @@ export default function BirthdayPartiesPage() {
             />
             <div className="relative mt-8 aspect-[16/10] overflow-hidden rounded-lg">
               <Image
-                src="/images/programs/birthday-parties.jpg"
+                src="/images/programs/birthday.jpg"
                 alt="Kids celebrating at Batter Up"
                 fill
                 className="object-cover"

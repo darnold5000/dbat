@@ -32,7 +32,7 @@ export default function SoftballTrainingPage() {
         eyebrow="Softball"
         title="Softball training"
         description="Private lessons, machine work for slow-pitch and fast-pitch, cage rentals, and clinics for softball athletes."
-        image="/images/facility/avon-facility-2.jpg"
+        image="/images/facility/training.jpg"
         imageAlt="Softball training at Batter Up"
         actions={
           <>

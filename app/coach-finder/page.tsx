@@ -25,7 +25,7 @@ export default function CoachFinderPage() {
         eyebrow="Signal Works technology"
         title="AI Coach Finder"
         description="Parents don’t want a directory — they want a recommendation. Tell us about your athlete and we’ll suggest our instructors to book."
-        image="/images/facility/hero-athlete.jpg"
+        image="/images/facility/hitting.jpg"
         imageAlt="Athlete training imagery from Batter Up"
         compact
       />

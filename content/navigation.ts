@@ -5,36 +5,42 @@ export type NavItem = {
 };
 
 export const primaryNav: NavItem[] = [
-  { label: "Home", href: "/" },
   {
     label: "Training",
     href: "/training",
     children: [
       { label: "Private Lessons", href: "/lessons" },
       { label: "Batting Cages", href: "/batting-cages" },
-      { label: "Baseball Training", href: "/baseball-training" },
-      { label: "Softball Training", href: "/softball-training" },
+      { label: "Baseball", href: "/baseball-training" },
+      { label: "Softball", href: "/softball-training" },
+      { label: "Camps & Clinics", href: "/camps" },
       { label: "Birthday Parties", href: "/birthday-parties" },
     ],
   },
   {
-    label: "Instructors",
+    label: "Coaches",
     href: "/instructors",
     children: [
-      { label: "All Instructors", href: "/instructors" },
-      { label: "AI Coach Finder", href: "/coach-finder" },
+      { label: "All Coaches", href: "/instructors" },
+      { label: "Coach Finder", href: "/coach-finder" },
     ],
   },
-  { label: "Camps & Clinics", href: "/camps" },
-  { label: "Memberships", href: "/memberships" },
+  {
+    label: "Memberships",
+    href: "/memberships",
+    children: [
+      { label: "Plans", href: "/memberships" },
+      { label: "Pricing", href: "/pricing" },
+      { label: "Pro Shop", href: "/pro-shop" },
+    ],
+  },
   { label: "Facility", href: "/facility" },
-  { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
 ];
 
 export const footerNav = [
   { label: "Lessons", href: "/lessons" },
-  { label: "Instructors", href: "/instructors" },
+  { label: "Coaches", href: "/instructors" },
   { label: "Batting Cages", href: "/batting-cages" },
   { label: "Camps & Clinics", href: "/camps" },
   { label: "Memberships", href: "/memberships" },

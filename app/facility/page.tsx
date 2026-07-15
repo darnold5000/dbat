@@ -26,7 +26,7 @@ const tourStops = [
     title: "Batting Cages",
     description:
       "Indoor cage space for individual work and team batting practice. Rentals include baseballs/softballs, a tee, and an L-screen.",
-    image: "/images/facility/avon-facility-3.jpg",
+    image: "/images/facility/cages.jpg",
     points: [
       "Half-hour rental increments",
       "Great for individuals or teams",
@@ -38,7 +38,7 @@ const tourStops = [
     title: "Pitching Machines",
     description:
       "Machine lanes throw real baseballs and softballs — baseball, slow-pitch, and fast-pitch supported. First come, first served.",
-    image: "/images/facility/avon-facility-2.jpg",
+    image: "/images/facility/training.jpg",
     points: [
       "Real baseballs and softballs",
       "Members get daily machine tokens",
@@ -50,7 +50,7 @@ const tourStops = [
     title: "Indoor Training Floor",
     description:
       "Climate-controlled indoor environment so athletes can train year-round regardless of Indiana weather.",
-    image: "/images/facility/avon-facility-1.jpg",
+    image: "/images/facility/interior.jpg",
     points: [
       "Year-round indoor access",
       "Baseball and softball ready",
@@ -62,7 +62,7 @@ const tourStops = [
     title: "Pro Shop",
     description:
       "Bats, gloves, apparel, and accessories on site. Members receive merchandise discounts.",
-    image: "/images/facility/pro-shop-1.jpeg",
+    image: "/images/facility/pro-shop.jpg",
     points: ["Gold 10% off", "Platinum 15% off", "In-facility shopping"],
   },
   {
@@ -70,7 +70,7 @@ const tourStops = [
     title: "Birthday Party Space",
     description:
       "Party options ranging from DIY to all-inclusive — celebrate at the cages.",
-    image: "/images/programs/birthday-parties.jpg",
+    image: "/images/programs/birthday.jpg",
     points: ["Flexible party formats", "Indoor celebration", "Request a date online"],
   },
   {
@@ -78,20 +78,19 @@ const tourStops = [
     title: "Arrival & Lobby",
     description:
       "Walk-ins welcome. Check in for lessons, cages, camps, and membership questions at the front desk.",
-    image: "/images/facility/hero-athlete.jpg",
+    image: "/images/facility/hitting.jpg",
     points: ["Walk-ins welcome", "Lesson & cage check-in", "Membership help"],
   },
 ];
 
 const gallery = [
-  "/images/facility/avon-facility-1.jpg",
-  "/images/facility/avon-facility-2.jpg",
-  "/images/facility/avon-facility-3.jpg",
-  "/images/facility/pro-shop-1.jpeg",
-  "/images/facility/pro-shop-2.jpeg",
-  "/images/facility/pro-shop-3.jpg",
-  "/images/programs/birthday-parties.jpg",
-  "/images/facility/hero-athlete.jpg",
+  "/images/facility/interior.jpg",
+  "/images/facility/training.jpg",
+  "/images/facility/cages.jpg",
+  "/images/facility/hitting.jpg",
+  "/images/facility/pro-shop.jpg",
+  "/images/programs/birthday.jpg",
+  "/images/programs/camps.jpg",
 ];
 
 export default function FacilityPage() {
@@ -104,7 +103,7 @@ export default function FacilityPage() {
         eyebrow="Virtual tour"
         title="Step inside Batter Up"
         description="Indoor cages. Real-ball machines. Pro shop. Birthday space. Explore the academy before you visit — then get directions."
-        image="/images/facility/avon-facility-2.jpg"
+        image="/images/facility/training.jpg"
         imageAlt="Batter Up indoor facility"
         actions={
           <>

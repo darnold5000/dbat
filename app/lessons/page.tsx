@@ -33,7 +33,7 @@ export default function LessonsPage() {
         eyebrow="Private Lessons"
         title="Instruction built around the player"
         description="At Batter Up, lessons keep the ballplayer as the focus while involving parents during the session. Instructors work with athletes at every level — and rely on parent feedback from games."
-        image="/images/facility/avon-facility-3.jpg"
+        image="/images/facility/cages.jpg"
         imageAlt="Training at Batter Up"
         actions={
           <>

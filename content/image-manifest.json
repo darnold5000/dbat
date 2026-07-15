@@ -22,7 +22,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-1920w.jpg",
-      "localPath": "/images/facility/avon-facility-1.jpg",
+      "localPath": "/images/facility/interior.jpg",
       "originalPage": "/memberships",
       "intendedUse": "hero/facility",
       "alt": "Batter Up indoor training facility",
@@ -31,7 +31,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon1-1920w.jpg",
-      "localPath": "/images/facility/avon-facility-2.jpg",
+      "localPath": "/images/facility/training.jpg",
       "originalPage": "/camps",
       "intendedUse": "facility",
       "alt": "Batter Up facility interior",
@@ -40,7 +40,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon2-1920w.jpg",
-      "localPath": "/images/facility/avon-facility-3.jpg",
+      "localPath": "/images/facility/cages.jpg",
       "originalPage": "/camps",
       "intendedUse": "facility",
       "alt": "Batter Up batting cages",
@@ -49,7 +49,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon2-1920w.png",
-      "localPath": "/images/facility/avon-placeholder-a.png",
+      "localPath": "/images/instructors/coach-1.jpg",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
       "alt": "Batter Up facility photo",
@@ -58,7 +58,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-91ec8dc3-1920w.png",
-      "localPath": "/images/facility/avon-placeholder-b.png",
+      "localPath": "/images/instructors/coach-2.jpg",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
       "alt": "Batter Up facility photo",
@@ -67,7 +67,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon3-1920w.png",
-      "localPath": "/images/facility/avon-placeholder-c.png",
+      "localPath": "/images/instructors/coach-3.jpg",
       "originalPage": "/lessons",
       "intendedUse": "instructor-placeholder",
       "alt": "Batter Up facility photo",
@@ -76,7 +76,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/avon-1920w.png",
-      "localPath": "/images/facility/avon-facility-4.png",
+      "localPath": "/images/facility/hitting.jpg",
       "originalPage": "/camps",
       "intendedUse": "facility",
       "alt": "Batter Up training space",
@@ -166,7 +166,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/birthday-1920w.jpg",
-      "localPath": "/images/programs/birthday-parties.jpg",
+      "localPath": "/images/programs/birthday.jpg",
       "originalPage": "/birthday-parties",
       "intendedUse": "birthday",
       "alt": "Birthday party at Batter Up",
@@ -175,7 +175,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/8-1920w.png",
-      "localPath": "/images/programs/camp-flyer-1.png",
+      "localPath": "/images/programs/camp-1.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic flyer",
@@ -184,7 +184,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/CadeAndKyle-1920w.jpg",
-      "localPath": "/images/programs/cade-and-kyle.jpg",
+      "localPath": "/images/facility/training.jpg",
       "originalPage": "/about-us",
       "intendedUse": "about",
       "alt": "Batter Up founders Cade and Kyle Griffis",
@@ -193,7 +193,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2908-1920w.jpeg",
-      "localPath": "/images/facility/pro-shop-1.jpeg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Batter Up pro shop merchandise",
@@ -202,7 +202,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_9914-1920w.jpeg",
-      "localPath": "/images/facility/pro-shop-2.jpeg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop bats and equipment",
@@ -211,7 +211,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2387-1920w.jpg",
-      "localPath": "/images/facility/pro-shop-3.jpg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop apparel and gear",
@@ -220,7 +220,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2538-1920w.jpeg",
-      "localPath": "/images/facility/pro-shop-4.jpeg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop display",
@@ -229,7 +229,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_2386-1920w.jpg",
-      "localPath": "/images/facility/pro-shop-5.jpg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop products",
@@ -238,7 +238,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_0691-1920w.jpg",
-      "localPath": "/images/facility/pro-shop-6.jpg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop interior",
@@ -247,7 +247,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/IMG_0692-1920w.jpg",
-      "localPath": "/images/facility/pro-shop-7.jpg",
+      "localPath": "/images/facility/pro-shop.jpg",
       "originalPage": "/pro-shop",
       "intendedUse": "pro-shop",
       "alt": "Pro shop gear wall",
@@ -256,7 +256,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/a8cdb5f4-080d-4595-8d30-7d9d4b6a17a7-TICKET.upload_file-ChatGPT-Image-Jun-11-2026-03_12_00-PM-65d980-1920w.png",
-      "localPath": "/images/programs/camp-flyer-2.jpg",
+      "localPath": "/images/programs/camp-1.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 1",
@@ -265,7 +265,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/a8cdb5f4-080d-4595-8d30-7d9d4b6a17a7-TICKET.upload_file-ChatGPT-Image-Jun-11-2026-03_12_00-PM-65d980-640w.png",
-      "localPath": "/images/programs/camp-flyer-3.jpg",
+      "localPath": "/images/programs/camp-2.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 2",
@@ -274,7 +274,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/d7ce1a6e-7073-430d-8e2a-5e887539183b-TICKET.upload_file-ChatGPT+Image+Jun+11-+2026-+03_48_48+PM-97f3a7-1920w.png",
-      "localPath": "/images/programs/camp-flyer-4.jpg",
+      "localPath": "/images/programs/camp-3.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 3",
@@ -283,7 +283,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/d7ce1a6e-7073-430d-8e2a-5e887539183b-TICKET.upload_file-ChatGPT+Image+Jun+11-+2026-+03_48_48+PM-97f3a7-640w.png",
-      "localPath": "/images/programs/camp-flyer-5.jpg",
+      "localPath": "/images/programs/camp-4.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 4",
@@ -292,7 +292,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/e94873b9-494a-460b-9277-66d987c1cf48-TICKET.upload_file-ChatGPT+Image+Jun+16-+2026-+11_07_38+AM-bf0c57-1920w.png",
-      "localPath": "/images/programs/camp-flyer-6.jpg",
+      "localPath": "/images/programs/camp-5.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 5",
@@ -301,7 +301,7 @@
     },
     {
       "sourceUrl": "https://lirp.cdn-website.com/c4510411/dms3rep/multi/opt/e94873b9-494a-460b-9277-66d987c1cf48-TICKET.upload_file-ChatGPT+Image+Jun+16-+2026-+11_07_38+AM-bf0c57-640w.png",
-      "localPath": "/images/programs/camp-flyer-7.jpg",
+      "localPath": "/images/programs/camp-6.jpg",
       "originalPage": "/camps",
       "intendedUse": "camp-flyer",
       "alt": "Camp or clinic registration flyer 6",

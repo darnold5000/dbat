@@ -31,7 +31,7 @@ export default function BattingCagesPage() {
         eyebrow="Batting Cages"
         title="Machine lanes and cage rentals"
         description="Use pitching machines for authentic swings, or reserve a rental cage for individual or team practice."
-        image="/images/facility/avon-facility-3.jpg"
+        image="/images/facility/cages.jpg"
         imageAlt="Batting cages at Batter Up"
         actions={
           <>

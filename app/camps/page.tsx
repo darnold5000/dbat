@@ -25,7 +25,7 @@ export default function CampsPage() {
         eyebrow="Camps & Clinics"
         title="Register for the next session"
         description="Flyers and registration links preserved from the current Batter Up site. Confirm dates, ages, and pricing in the booking system."
-        image="/images/facility/avon-facility-2.jpg"
+        image="/images/facility/training.jpg"
         imageAlt="Athletes training at Batter Up"
         actions={
           <BookingLink

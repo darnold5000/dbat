@@ -30,7 +30,7 @@ export default function MembershipsPage() {
         eyebrow="Memberships"
         title="Train more. Save more."
         description={memberships.intro}
-        image="/images/facility/avon-facility-1.jpg"
+        image="/images/facility/interior.jpg"
         imageAlt="Batter Up facility"
         actions={
           <>

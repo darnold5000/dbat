@@ -15,12 +15,12 @@ export const metadata = createMetadata({
 });
 
 const photos = [
-  "/images/facility/pro-shop-1.jpeg",
-  "/images/facility/pro-shop-2.jpeg",
-  "/images/facility/pro-shop-3.jpg",
-  "/images/facility/pro-shop-4.jpeg",
-  "/images/facility/pro-shop-5.jpg",
-  "/images/facility/pro-shop-6.jpg",
+  "/images/facility/pro-shop.jpg",
+  "/images/facility/hitting.jpg",
+  "/images/facility/cages.jpg",
+  "/images/facility/training.jpg",
+  "/images/facility/interior.jpg",
+  "/images/programs/camps.jpg",
 ];
 
 export default function ProShopPage() {
@@ -32,8 +32,8 @@ export default function ProShopPage() {
       <PageHero
         eyebrow="Pro Shop"
         title="Gear for the next session"
-        description="Stock up on bats, gloves, apparel, and accessories at the our pro shop. Members save on merchandise — Gold 10% off, Platinum 15% off."
-        image="/images/facility/pro-shop-1.jpeg"
+        description="Stock up on bats, gloves, apparel, and accessories at the Batter Up pro shop. Members save on merchandise — Gold 10% off, Platinum 15% off."
+        image="/images/facility/pro-shop.jpg"
         imageAlt="Batter Up pro shop"
         actions={<PrimaryCTA href="/contact">Ask About Gear</PrimaryCTA>}
       />
@@ -41,7 +41,7 @@ export default function ProShopPage() {
         <Breadcrumbs items={[{ label: "Pro Shop" }]} />
         <SectionHeading
           title="In-facility shopping"
-          description="Visit the our location to browse current inventory. Online ordering is not part of this redesign concept."
+          description="Visit the facility to browse current inventory. Online ordering is not part of this redesign concept."
         />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {photos.map((src) => (

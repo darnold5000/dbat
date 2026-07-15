@@ -52,7 +52,7 @@ export default function AboutPage() {
           </div>
           <div className="relative min-h-80 overflow-hidden rounded-lg">
             <Image
-              src="/images/facility/avon-facility-1.jpg"
+              src="/images/facility/interior.jpg"
               alt="Athletes training at Batter Up"
               fill
               className="object-cover"

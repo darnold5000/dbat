@@ -22,18 +22,18 @@ export const hero = {
   videoUrl:
     "https://vid.cdn-website.com/c4510411/videos/LVOt8JtxRwqTqV7QE4D3_dbat-v.mp4",
   poster: "/images/brand/hero-poster.jpg",
-  athleteImage: "/images/facility/hero-athlete.jpg",
+  athleteImage: "/images/facility/hitting.jpg",
   headline: "Your Kid's Next Level Starts Here.",
   supporting:
     "Private lessons. Real balls in the cages. Camps, memberships, and year-round development.",
 } as const;
 
 export const gallery = [
-  "/images/facility/avon-facility-1.jpg",
-  "/images/facility/avon-facility-2.jpg",
-  "/images/facility/avon-facility-3.jpg",
-  "/images/facility/pro-shop-1.jpeg",
-  "/images/facility/pro-shop-2.jpeg",
-  "/images/programs/birthday-parties.jpg",
-  "/images/facility/hero-athlete.jpg",
+  "/images/facility/interior.jpg",
+  "/images/facility/training.jpg",
+  "/images/facility/cages.jpg",
+  "/images/facility/pro-shop.jpg",
+  "/images/programs/birthday.jpg",
+  "/images/programs/camps.jpg",
+  "/images/facility/hitting.jpg",
 ] as const;

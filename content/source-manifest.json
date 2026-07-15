@@ -68,7 +68,7 @@
     {
       "name": "Levi Raspberry",
       "sport": "baseball",
-      "image": "/images/facility/avon-placeholder-a.png",
+      "image": "/images/instructors/coach-1.jpg",
       "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845",
       "staffId": null,
       "notes": "No individual staffFilter booking link found on source lessons page; uses general lesson booking."
@@ -76,7 +76,7 @@
     {
       "name": "Brett Poindexter",
       "sport": "baseball",
-      "image": "/images/facility/avon-placeholder-b.png",
+      "image": "/images/instructors/coach-2.jpg",
       "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845&staffFilter%5B%5D=1703369",
       "staffId": "1703369",
       "notes": "Source used facility placeholder image instead of dedicated headshot."
@@ -133,7 +133,7 @@
     {
       "name": "Peyton Norman",
       "sport": "softball",
-      "image": "/images/facility/avon-placeholder-c.png",
+      "image": "/images/instructors/coach-3.jpg",
       "bookingUrl": "https://app.dbathub.com/customers/144-d-bat-avon/events?eventTypeFilter%5B%5D=845",
       "staffId": null,
       "notes": "No individual staffFilter booking link found; uses general lesson booking. Source used facility placeholder image."

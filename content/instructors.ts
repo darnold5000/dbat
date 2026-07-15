@@ -8,7 +8,6 @@ export type Instructor = {
   sport: "baseball" | "softball";
   image: string;
   bookingUrl: string;
-  /** Only populate when verified by the owner. */
   specialties?: string[];
   yearsCoaching?: number;
   availability?: AvailabilityStatus;
@@ -19,15 +18,12 @@ export type Instructor = {
   isFeatured?: boolean;
 };
 
-/**
- * Demo coach roster — fictional profiles for the Batter Up redesign concept.
- */
 export const instructors: Instructor[] = [
   {
     slug: "alex-rivera",
     name: "Alex Rivera",
     sport: "baseball",
-    image: "/images/facility/avon-placeholder-a.png",
+    image: "/images/instructors/coach-1.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Hitting", "Infield"],
     yearsCoaching: 8,
@@ -38,7 +34,7 @@ export const instructors: Instructor[] = [
     slug: "jordan-lee",
     name: "Jordan Lee",
     sport: "baseball",
-    image: "/images/facility/avon-placeholder-b.png",
+    image: "/images/instructors/coach-3.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Pitching", "Strength"],
     yearsCoaching: 12,
@@ -49,7 +45,7 @@ export const instructors: Instructor[] = [
     slug: "sam-ortiz",
     name: "Sam Ortiz",
     sport: "baseball",
-    image: "/images/facility/avon-placeholder-c.png",
+    image: "/images/instructors/coach-5.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Catching", "Fundamentals"],
     yearsCoaching: 6,
@@ -59,7 +55,7 @@ export const instructors: Instructor[] = [
     slug: "morgan-blake",
     name: "Morgan Blake",
     sport: "baseball",
-    image: "/images/facility/avon-placeholder-a.png",
+    image: "/images/instructors/coach-6.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Outfield", "Base running"],
     yearsCoaching: 5,
@@ -69,7 +65,7 @@ export const instructors: Instructor[] = [
     slug: "casey-morgan",
     name: "Casey Morgan",
     sport: "softball",
-    image: "/images/facility/avon-placeholder-b.png",
+    image: "/images/instructors/coach-2.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Hitting", "Slapping"],
     yearsCoaching: 10,
@@ -80,7 +76,7 @@ export const instructors: Instructor[] = [
     slug: "taylor-brooks",
     name: "Taylor Brooks",
     sport: "softball",
-    image: "/images/facility/avon-placeholder-c.png",
+    image: "/images/instructors/coach-4.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Pitching", "Mechanics"],
     yearsCoaching: 9,
@@ -91,7 +87,7 @@ export const instructors: Instructor[] = [
     slug: "jamie-nguyen",
     name: "Jamie Nguyen",
     sport: "softball",
-    image: "/images/facility/avon-placeholder-a.png",
+    image: "/images/instructors/coach-7.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Infield", "Defense"],
     yearsCoaching: 7,
@@ -101,7 +97,7 @@ export const instructors: Instructor[] = [
     slug: "riley-park",
     name: "Riley Park",
     sport: "softball",
-    image: "/images/facility/avon-placeholder-b.png",
+    image: "/images/instructors/coach-8.jpg",
     bookingUrl: bookingLinks.lessons,
     specialties: ["Catching", "Game IQ"],
     yearsCoaching: 4,

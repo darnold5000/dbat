@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 
-const defaultOgImage = "/images/facility/avon-facility-1.jpg";
+const defaultOgImage = "/images/facility/interior.jpg";
 
 export function createMetadata({
   title,
